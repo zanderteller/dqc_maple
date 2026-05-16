@@ -81,7 +81,7 @@ The Makefile defaults to `MAPLEROOT=/usr/local/maple/current`. Set `MAPLEROOT=` 
 
 ### Build outputs
 
-After a successful build, the only file you need for Maple is:
+The only built artifact you need for the Maple install (alongside `maple/CoreDQC.mw` from the repo) is the shared library:
 
 - macOS: `cpp/build/dqc_maple.dylib`
 - Linux: `cpp/build/dqc_maple.so`
