@@ -15,13 +15,20 @@ EXE:=.exe
 else
 EXE:=
 ifeq ($(OS),Darwin)
-# Homebrew's libomp is keg-only; pass -I/-L explicitly. Override LIBOMPROOT for Intel Macs
-# (typically /usr/local/opt/libomp).
+# Defaults auto-detect by CPU arch: arm64 -> Apple Silicon Homebrew; x86_64 -> Intel Homebrew.
+# Override either root on the command line for non-standard installs.
+ARCH:=$(shell uname -m)
+ifeq ($(ARCH),arm64)
 LIBOMPROOT?=/opt/homebrew/opt/libomp
+OPENBLASROOT?=/opt/homebrew/opt/openblas
+else
+LIBOMPROOT?=/usr/local/opt/libomp
+OPENBLASROOT?=/usr/local/opt/openblas
+endif
+# Homebrew's libomp is keg-only; pass -I/-L explicitly.
 OPENMPFLAGS:=-Xpreprocessor -fopenmp -I$(LIBOMPROOT)/include
 OPENMPLIB:=-L$(LIBOMPROOT)/lib -lomp
-# OpenBLAS (Homebrew, keg-only). Override OPENBLASROOT for Intel Macs (typically /usr/local/opt/openblas).
-OPENBLASROOT?=/opt/homebrew/opt/openblas
+# OpenBLAS (Homebrew, keg-only).
 LAPACKINC:=-I$(OPENBLASROOT)/include
 LAPACKLIB:=-L$(OPENBLASROOT)/lib -lopenblas -lpthread -lm -ldl
 else

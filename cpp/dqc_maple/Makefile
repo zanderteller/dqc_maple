@@ -16,20 +16,29 @@ else
 ifeq ($(OS),Darwin)
 DLL=dylib
 
-# Homebrew's libomp is keg-only, so we have to pass -I/-L explicitly. Default is the Apple
-# Silicon Homebrew prefix; override LIBOMPROOT for Intel Macs (typically /usr/local/opt/libomp).
+# Defaults auto-detect by CPU arch: arm64 -> Apple Silicon Homebrew + arm64 Maple binaries;
+# x86_64 -> Intel Homebrew + x86_64 Maple binaries (under bin.APPLE_UNIVERSAL_OSX, which is
+# x86_64-only despite the name). Override any of these on the command line if needed.
+ARCH:=$(shell uname -m)
+ifeq ($(ARCH),arm64)
 LIBOMPROOT?=/opt/homebrew/opt/libomp
+OPENBLASROOT?=/opt/homebrew/opt/openblas
+MAPLE_BIN_SUBDIR?=bin.APPLE_ARM64_MACOS
+else
+LIBOMPROOT?=/usr/local/opt/libomp
+OPENBLASROOT?=/usr/local/opt/openblas
+MAPLE_BIN_SUBDIR?=bin.APPLE_UNIVERSAL_OSX
+endif
+
+# Homebrew's libomp is keg-only, so we pass -I/-L explicitly.
 OPENMPFLAGS:=-Xpreprocessor -fopenmp -I$(LIBOMPROOT)/include
 OPENMPLIB:=-L$(LIBOMPROOT)/lib -lomp
 
-# Native Apple Silicon (arm64) Maple. For x86_64 Maple builds, swap to bin.APPLE_UNIVERSAL_OSX.
 MAPLEROOT:=/Library/Frameworks/Maple.framework/Versions/Current
-MAPLELIB:=-L$(MAPLEROOT)/bin.APPLE_ARM64_MACOS -lmaplec
+MAPLELIB:=-L$(MAPLEROOT)/$(MAPLE_BIN_SUBDIR) -lmaplec
 MAPLEINC:=-I$(MAPLEROOT)/extern/include
 
-# OpenBLAS (Homebrew, keg-only since macOS provides Accelerate). Override OPENBLASROOT for Intel
-# Macs (typically /usr/local/opt/openblas) or any non-standard install.
-OPENBLASROOT?=/opt/homebrew/opt/openblas
+# OpenBLAS (Homebrew, keg-only since macOS provides Accelerate).
 LAPACKINC:=-I$(OPENBLASROOT)/include
 LAPACKLIB:=-L$(OPENBLASROOT)/lib -lopenblas
 

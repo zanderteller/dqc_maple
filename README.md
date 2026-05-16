@@ -59,14 +59,15 @@ Produces:
 
 ### macOS, Intel
 
-Same steps as Apple Silicon, but Homebrew lives under `/usr/local` instead of `/opt/homebrew`. Override the two root paths on the `make` command line:
+Identical steps to Apple Silicon — the Makefile auto-detects the CPU architecture and picks the right defaults (Intel Homebrew prefix `/usr/local`, and Maple's `bin.APPLE_UNIVERSAL_OSX` x86_64 binaries):
 
 ```bash
 xcode-select --install
 brew install openblas
-cd cpp
-make OPENBLASROOT=/usr/local/opt/openblas LIBOMPROOT=/usr/local/opt/libomp
+cd cpp && make
 ```
+
+If you have a non-Homebrew install of OpenBLAS or libomp, you can override on the command line: `make OPENBLASROOT=... LIBOMPROOT=...`.
 
 ### Linux
 
