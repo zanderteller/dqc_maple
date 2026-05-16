@@ -1,0 +1,2647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2021" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1600" rtablesize="[10, 10]" useclientjvm="true" format="worksheet" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L134" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L142" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L140" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group><CodeEditor-ExecGroup view="presentation" labelreference="L144" drawlabel="true" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion0" expanded="true" visible="true" pixel-width="500" pixel-height="200" code-language="text/maple" autofit="true" wrapping="true" show-border="true" code-line-numbers="true">CoreDQC := module()
+
+
+option package;
+description &quot;main package for using DQC in Maple, including a DQC class&quot;;
+
+
+# This package is the new (May 2021, updated Sep 2021) main package for DQC in Maple.  It includes a 'DQC' class whose instances store various parameters
+# and intermediate results (sigma, operators, etc.).
+
+
+uses StringTools, ArrayTools, LinearAlgebra, Statistics, RandomTools, combinat, plots;
+
+
+# these are references to external dynamic-library compiled code (see ModuleLoad below)
+local L2NormRowsC, ChooseBasisByDistanceC, BuildOverlapsC, MakeOperatorsC, BuildFramesAutoC;
+local AddSecondaryC, ClearSecondariesC, ListSecondariesC, SecondaryCountC;
+
+
+# define external functions (in our compiled dynamic-library code)
+local ModuleLoad := proc()
+	local lib_ext, lib_path;
+
+	### load dynamic-library functions
+	if Search(&quot;WINDOWS&quot;, kernelopts(system)) &gt; 0 then
+		lib_ext := &quot;dll&quot;;
+	elif Search(&quot;APPLE&quot;, kernelopts(system)) &gt; 0 then
+		lib_ext := &quot;dylib&quot;;
+	else
+		error &quot;DQC module can only load dynamic library for Windows and Apple OS -- not yet supported for OS '%1'&quot;, kernelopts(system);
+	end if; # OS is Windows, Apple, or other
+
+	lib_path := JoinPath([kernelopts(homedir), &quot;maple&quot;, &quot;toolbox&quot;, &quot;CoreDQC&quot;, &quot;bin&quot;, sprintf(&quot;dqc_maple.%s&quot;, lib_ext)]);
+
+	# define the external functions
+	L2NormRowsC := define_external('L2NormRowsC', 'LIB'=lib_path, 'mat'::ARRAY(float[8]), 'num_rows'::integer[4], 'num_cols'::integer[4],
+	                               'mat_out'::ARRAY(float[8]));
+	ChooseBasisByDistanceC := define_external('ChooseBasisByDistanceC', 'LIB'=lib_path, 'rows'::ARRAY(float[8]), 'num_rows'::integer[4],
+	                                          'num_cols'::integer[4], 'basis_size'::integer[4], 'basis_row_nums'::ARRAY(integer[4]),
+	                                          'first_basis_row_num'::integer[4]);
+	BuildOverlapsC:=define_external('BuildOverlapsC', 'LIB'=lib_path, 'sigma'::float[8], 'basis_rows'::ARRAY(float[8]), 'other_rows'::ARRAY(float[8]),
+	                                'num_basis_rows'::integer[4], 'num_other_rows'::integer[4], 'num_cols'::integer[4], 'overlaps'::ARRAY(float[8]));
+	MakeOperatorsC := define_external('MakeOperatorsC', 'MAPLE', 'LIB'=lib_path);
+	BuildFramesAutoC := define_external('BuildFramesAutoC', 'MAPLE', 'LIB'=lib_path);
+	AddSecondaryC := define_external('AddSecondaryC', 'LIB'=lib_path, address::string, weight::float[4]);
+	ClearSecondariesC := define_external('ClearSecondariesC', 'LIB'=lib_path);
+	ListSecondariesC := define_external('ListSecondariesC', 'MAPLE', 'LIB'=lib_path);
+	SecondaryCountC := define_external('SecondaryCountC', 'LIB'=lib_path, 'RETURN'::integer[4]);
+
+	return NULL;
+end; # function ModuleLoad
+
+
+ModuleLoad();
+
+
+# attempt to convert input to a float[8] vector (will fail with any non-numeric entries).  if input is already a float vector,
+# we just return it, without copying.  (NOTE: Maple doesn't seem to distinguish between float[4] and float[8] in type-checking.
+# we're punting on this issue for right now...)
+# inputs
+#   thing: must be a numeric, list, vector, matrix, or array
+#     * numeric: becomes a &lt;1 x 1&gt; float[8] vector
+#     * matrix: 2-D matrix (more than 1 row and more than 1 column) raises an error
+#     * array: 2 or more non-singleton dimensions raises an error.
+# outputs
+#   a float[8] vector
+export Float8Vector := proc(thing)
+	local num_rows, num_cols, dims, num_ns_dims;
+	local call_stack;
+
+	try
+		if type(thing, 'Vector'(float)) and Dimension(thing) &gt; 0 then
+			return thing;
+		end;
+	
+		if type(thing, numeric) then
+			return Vector([thing], datatype=float[8]);
+		elif type(thing, Vector) or type(thing, list) then
+			return Vector(thing, datatype=float[8]);
+		elif type(thing, Matrix) then
+			num_rows := RowDimension(thing);
+			num_cols := ColumnDimension(thing);
+			print(num_rows, num_cols);
+			if num_rows = 0 or num_cols = 0 then
+				return Vector(datatype=float[8]);
+			elif num_rows = 1 then
+				return Vector(thing[1, ..], datatype=float[8]);
+			elif num_cols = 1 then
+				return Vector(thing[.., 1], datatype=float[8]);
+			else
+				error; # can't convert 2-D matrix to vector
+			end; # if/else (number of matrix rows/columns)
+		elif type(thing, Array) then
+			dims := Size(thing);
+			if Dimension(dims) = 0 then
+				return Vector(datatype=float[8]);
+			end;
+			num_ns_dims := nops(select(i -&gt; dims[i] &gt; 1, [$1..Dimension(dims)])); # number of non-singleton dimensions
+			if num_ns_dims &lt;= 1 then
+				if dims[2] &gt; 1 then
+					return Vector[row](thing(..), datatype=float[8]);
+				else
+					return Vector[column](thing(..), datatype=float[8]);
+				end;
+			else
+				error;
+			end;
+		end; # if/else (which main type)
+	catch:
+		call_stack := debugopts(callstack);
+		error &quot;failed to convert %1 to float[8] vector (called from %2: \134&quot;%3\134&quot;)&quot;, whattype(thing), call_stack[5], call_stack[6];
+	end; # try/catch
+end; # function Float8Vector
+
+
+# attempt to convert input to a float[8] matrix (will fail with any non-numeric entries).  if input is already a float matrix,
+# we just return it, without copying.  (NOTE: Maple doesn't seem to distinguish between float[4] and float[8] in type-checking.
+# we're punting on this issue for right now...)
+# inputs
+#   thing: must be a vector, matrix, or array.  conversion will fail (raising an error) if thing is
+#     an array with any non-singleton dimensions in dimensions 3 and higher
+# outputs
+#   a float[8] matrix
+export Float8Matrix := proc(thing)
+	local dims, num_dims;
+	local call_stack;
+
+	try
+		if not (type(thing, Vector) or type(thing, Matrix) or type(thing, Array)) then
+			error;
+		end;
+
+		if type(thing, 'Matrix'(float)) and RowDimension(thing) &gt; 0 and ColumnDimension(thing) &gt; 0 then
+			return thing;
+		end;
+
+		dims := Size(thing);
+		num_dims := Dimension(dims);
+
+		if num_dims = 0 then
+			return Matrix(datatype=float[8]);
+		elif num_dims &lt;= 2 then
+			return Matrix(thing, datatype=float[8]);
+		else
+			if not (max(dims[3..-1]) = 1) then
+				error; # dimensions 3 and up are not all singletons
+			end;
+			return Matrix(thing(1..dims[1], 1..dims[2]), datatype=float[8]);
+		end;
+	catch:
+		call_stack := debugopts(callstack);
+		error &quot;failed to convert %1 to float[8] matrix (called from %2: \134&quot;%3\134&quot;)&quot;, whattype(thing), call_stack[5], call_stack[6];
+	end; # try/catch
+end; # function Float8Matrix
+
+
+# attempt to convert input to a 3-D float[8] array (will fail with any non-numeric entries).  if input is already a 3-D float array,
+# we just return it, without copying.  (NOTE: Maple doesn't seem to distinguish between float[4] and float[8] in type-checking.
+# we're punting on this issue for right now...)
+# inputs
+#   thing: must be a matrix, or array.  conversion will fail (raising an error) if thing is
+#     an array with any non-singleton dimensions in dimensions 4 and higher
+# outputs
+#   a 3-D float[8] array
+export Float8Array3D := proc(thing)
+	local array_out, dims;
+	local call_stack;
+
+	try
+		if type(thing, 'Array'(float)) and Dimension(Size(thing)) = 3 and min(Size(thing)) &gt; 0 then
+			return thing;
+		end;
+
+		if type(thing, Matrix) then
+			if RowDimension(thing) = 0 or ColumnDimension(thing) = 0 then
+				return Array(0..0, 0..0, 0..0, datatype=float[8]);
+			end;			
+			array_out := convert(thing, Array)(.., .., ..);
+			array_out := Array(array_out, datatype=float[8]);
+			return array_out;
+		elif type(thing, Array) then
+			dims := Size(thing);
+			if Dimension(dims) &gt; 3 and max(dims[4..-1]) &gt; 1 then
+				error;
+			end;
+			if Dimension(dims) = 0 or min(dims) = 0 then
+				return Array(0..0, 0..0, 0..0, datatype=float[8]);
+			end;
+			array_out := thing(.., .., ..);
+			array_out := Array(array_out, datatype=float[8]);
+			return array_out;
+		else
+			error;
+		end;
+	catch:
+		call_stack := debugopts(callstack);
+		error &quot;failed to convert %1 to 3-D float[8] array (called from %2: \134&quot;%3\134&quot;)&quot;, whattype(thing), call_stack[5], call_stack[6];
+	end; # try/catch
+end; # function Float8Array3D
+
+
+# given a matrix, subtract the mean from each column and return the result.
+# inputs
+#   dat_in: anything convertible to a float matrix
+#   col_means_in: if empty ([]), we use the column means from dat_in.  if not empty, should be a vector of column means,
+#     which we then use.  (this option is needed for running out-of-sample points through a DQC map.)  default [].
+# outputs
+#   dat: float8 matrix with centered columns.
+#   col_means: vector of column means.  (col_means_in is simply passed back out if it was not empty.)
+export CenterColumns := proc(dat_in::rtable, col_means_in:=[])
+	local dat, num_cols, col_means, col_idx, col;
+
+	dat := copy(Float8Matrix(dat_in)); # make a copy, since we change it below
+	num_cols := ColumnDimension(dat);
+
+	if col_means_in = [] then
+		col_means := Vector[row](num_cols, datatype=float[8]);
+	else
+		if not type(col_means_in, Vector) then
+			error &quot;'col_means_in' must be of type Vector, received %1&quot;, whattype(col_means_in);
+		end;
+		col_means := copy(col_means_in);
+	end;
+	if Dimension(col_means) &lt;&gt; num_cols then
+		error &quot;size of 'col_means_in' must match number of columns in 'dat_in'&quot;;
+	end;
+
+	for col_idx from 1 to num_cols do
+		col := dat[.., col_idx];
+		if col_means_in = [] then
+			col_means[col_idx] := Mean(col); # build column means as we go (if they weren't passed in)
+		end;
+		col := col -~ col_means[col_idx];
+		dat[.., col_idx] := col;
+	end do;
+
+	return dat, col_means;
+end; # function CenterColumns
+
+
+# given a matrix, divide each row by its L2 norm and return the result.
+# inputs
+#   mat_in: anything convertible to a float matrix
+# outputs
+#   mat_out: matrix with L2-normalized rows
+export L2NormalizeRows := proc(mat_in::rtable)
+	local mat, num_rows, num_cols, matc, matc_out, mat_out;
+
+	mat := Float8Matrix(mat_in);
+
+	num_rows := Size(mat, 1);
+	num_cols := Size(mat, 2);
+
+	# note: L2NormRowsC is *not* Maple-aware, so we pass things in C (row-major) order
+	matc := Matrix(mat, datatype=float[8], order=C_order);
+	matc_out := Matrix(num_rows, num_cols, datatype=float[8], order=C_order);
+	L2NormRowsC(matc, num_rows, num_cols, matc_out);
+
+	mat_out := Matrix(matc_out, datatype=float[8], order=Fortran_order);
+	return mat_out;
+end; # function L2NormalizeRows
+
+
+# same functionality as L2NormalizeRows, but all in Maple (for testing/debugging)
+export L2NormalizeRowsMaple := proc(mat_in::rtable)
+	local mat, row_norms, row_idx;
+
+	mat := copy(Float8Matrix(mat_in));
+
+	row_norms := GetRowNorms(mat):
+
+	for row_idx from 1 to Size(mat, 1) do
+		mat[row_idx, ..] := mat[row_idx, ..] /~ row_norms[row_idx];
+	end; # for each row
+
+	return mat;
+end; # function L2NormalizeRowsMaple
+
+
+# return vector of L2 norms for each row of dat (which must be convertible to a float8 matrix)
+export GetRowNorms := proc(dat_in::rtable)
+	local dat, num_rows, row_norms, row_idx;
+
+	dat := Float8Matrix(dat_in);
+
+	num_rows := Size(dat, 1);
+	row_norms := Vector(num_rows, datatype=float[8]);
+	for row_idx from 1 to num_rows do
+		row_norms[row_idx] := Norm(dat[row_idx, ..], 2);
+	end;
+
+	return row_norms;
+end; # function GetRowNorms
+
+
+# given a vector of SVD singular values, display 3 plots:
+#   * normalized singular values
+#   * normalized eigenvalues
+#   * proportional cumulative variance
+# inputs
+#   s_in: SVD singular values (any type convertible to a float vector)
+#   num_dims_to_plot: how many dimensions to show in the plots.  default 0 (meaning, show all dimensions)
+# outputs
+#   (none)
+export PlotSVD := proc(s_in::rtable, num_dims_to_plot::integer:=0)
+	local s, n_dims, s_norm, eig_norm, cum_var, dim_nums, plot_settings, p1, p2, p3;
+
+	s := Float8Vector(s_in);
+
+	n_dims := Dimension(s);
+	if num_dims_to_plot &gt; 0 and num_dims_to_plot &lt; n_dims then
+		n_dims := num_dims_to_plot;
+	end;
+
+	s_norm := s /~ s[1]; # normalized singular values
+	eig_norm := (s^~2) /~ (s[1]^2);  # normalized eigenvalues
+	cum_var := Vector(CumulativeSum(eig_norm)) /~  AddAlongDimension(eig_norm); # proportional cumulative variance
+
+	dim_nums := [$1..n_dims];
+	plot_settings := [labeldirections=[horizontal, vertical], color=&quot;Blue&quot;, style=pointline];
+	p1 := plot(dim_nums, s_norm[1..n_dims], title=&quot;SVD: Normalized Singular Values&quot;, labels=[&quot;dimension number&quot;, &quot;normalized singular value&quot;],
+			op(plot_settings));
+	p2 := plot(dim_nums, eig_norm[1..n_dims], title=&quot;SVD: Normalized Eigenvalues&quot;, labels=[&quot;dimension number&quot;, &quot;normalized eigenvalue&quot;],
+			op(plot_settings));
+	p3 := plot(dim_nums, cum_var[1..n_dims], title=&quot;SVD: Cumulative Variance&quot;, labels=[&quot;dimension number&quot;, &quot;cumulative variance&quot;],
+			op(plot_settings));
+	print(display(&lt;p1 | p2 | p3&gt;));
+
+	return NULL;
+end proc: # function PlotSVD
+
+
+# drop any frames at the end where all points have stopped moving -- i.e., where frame n + 1 is
+# identical to frame n.
+#
+# note: output will be a reference to the frames passed in if no frames were dropped
+export PareFrames := proc(frames_in, verbose::boolean:=true)
+	local frames, num_frames, frame_idx, frame_changed;
+
+	frames := frames_in;
+
+	num_frames := Size(frames, 3);
+
+	if num_frames &lt;= 1 then
+		return frames;
+	end;
+
+	# walk backward until we find a pair of consecutive frames that are not identical
+	for frame_idx from num_frames to 2 by -1 do
+		frame_changed := evalb(not verify(frames[.., .., frame_idx], frames[.., .., frame_idx - 1], Array));
+		if frame_changed then
+			break;
+		end
+	end; # for each comparison frame
+
+	if not frame_changed then
+		if verbose then
+			printf(&quot;WARNING: all frames are identical -- returning first frame\134n&quot;);
+		end;
+		frames := frames[.., .., 1..1]; # keep it 3-D
+	else
+		frames := frames[.., .., 1..frame_idx];
+	end;
+
+	return frames;
+end; # method PareFrames
+
+
+# clear the list of available secondary machines in the C code
+export ClearSecondaries := proc()
+	ClearSecondariesC();
+
+	return NULL;
+end; # function ClearSecondaries
+
+
+# add a new machine, by IP address, to the list of available secondary machines
+# inputs
+#   address: string -- IP address of the secondary machine.
+#   weight: float or integer -- relative weight of the intended workload for this secondary machine.  (the primary machine gets a weight of 1,
+#     and the relative weights determine the relative share of any given job for each machine)).  default 1.
+export AddSecondary := proc(address::string, weight:=1.0)
+	AddSecondaryC(address, convert(weight, float));
+
+	return NULL;
+end; # function AddSecondary
+
+
+# print the current list of secondary machines to standard output
+export ListSecondaries := proc()
+	# print a list of available secondary machines to Maple output
+	ListSecondariesC();
+
+	return NULL;
+end; # function ListSecondaries
+
+
+# return a count of current secondary machines (use ListSecondaries to see details)
+export SecondaryCount := proc()
+	return SecondaryCountC();
+end; # function SecondaryCount
+
+
+
+
+
+## NOTE: the remaining CoreDQC functions here (before the beginning of the DQC class) are re-implementations in Maple of C++ code, for debugging and testing
+
+
+
+
+
+# find the row in the input matrix that is the biggest outlier (defined as the row with the nearest
+# neighbor that is farthest away).  we do this the simple, brute-force way, comparing every row to
+# every other row.
+#
+# return the index (row number) of the biggest-outlier row
+local BiggestOutlierMaple := proc(rows)
+	#local num_rows, num_cols, dists, row_idx1, row_idx2, max_dist, idx, nn_dists, row_idx, outlier_idx;
+	local num_rows, num_cols, dists, row_idx1, row_idx2, max_dist, idx, nn_dists, row_idx, outlier_idx;
+
+	num_rows := Size(rows, 1);
+	num_cols := Size(rows, 2);
+
+	# calculate all pairwise distances between rows
+	# note: this will work out badly for a large number of rows
+	dists := Matrix(num_rows, num_rows, shape=symmetric, datatype=float[8]);
+	for row_idx1 from 1 to num_rows - 1 do
+		for row_idx2 from row_idx1 + 1 to num_rows do
+			dists[row_idx1, row_idx2] := Norm(rows[row_idx1, ..] - rows[row_idx2, ..], 2);
+		end; # for each row (upper triangle)
+	end; # for each row
+
+	# make sure no row is its own nearest neighbor
+	max_dist := max(dists);
+	for idx from 1 to num_rows do
+		dists[idx, idx] := max_dist + 1;
+	end;
+
+	# find nearest-neighbor distance for each row
+	nn_dists := Vector(num_rows, datatype=float[8]);
+	for row_idx from 1 to num_rows do
+		nn_dists[row_idx] := min(dists[row_idx, ..]);
+	end;
+
+	# biggest outlier is the row with the largest nearest-neighbor distance
+	outlier_idx := max[index](nn_dists);
+
+	return outlier_idx;
+end; # function BiggestOutlierMaple
+
+
+# same functionality as ChooseBasisByDistanceC, but all in Maple
+export ChooseBasisByDistanceMaple := proc(rows, basis_size, first_basis_row_num)
+	local num_rows, basis_row_nums, other_row_nums, min_dists, other_row_num, new_dist, new_row_num;
+
+	num_rows := Size(rows, 1);
+
+	if basis_size &gt;= num_rows then
+		error &quot;basis_size must be less than num_rows&quot;;
+	end;
+
+	if first_basis_row_num &gt;= 1 then
+		basis_row_nums := [first_basis_row_num];
+	else:
+		basis_row_nums := [BiggestOutlierMaple(rows)];
+	end;
+
+	other_row_nums := convert(convert([$1..num_rows], set) minus convert(basis_row_nums, set), list);
+
+	# initialize min distances to sentinel value -1 (meaning 'not set yet')
+	min_dists := Vector(num_rows, i -&gt; -1, datatype=float[8]);
+
+	while nops(basis_row_nums) &lt; basis_size do
+		# for every 'other' row, find the smallest distance to any current basis row.  note: we only
+		# have to check the distance to the latest basis row, keeping track of the min distance as we go
+		for other_row_num in other_row_nums do
+			new_dist := Norm(rows[other_row_num, ..] - rows[basis_row_nums[-1], ..], 2);
+			if new_dist &lt; min_dists[other_row_num] or min_dists[other_row_num] &lt; 0 then
+				min_dists[other_row_num] := new_dist;
+			end;
+		end; # for each 'other' row
+
+		# find current 'other' row that is farthest away from any current basis row
+		new_row_num := max[index](min_dists);
+		min_dists[new_row_num] := -1; # set back to -1 so it won't be picked again
+
+		# add new row to basis and remove it from 'other' rows
+		basis_row_nums := [op(basis_row_nums), new_row_num];
+		other_row_nums := convert(convert(other_row_nums, set) minus convert(new_row_num, set), list);
+	end; # while building basis
+
+    return basis_row_nums;
+end; # function ChooseBasisByDistanceMaple
+
+
+# return a &lt;num_rows_1 x num_rows_2&gt; matrix with the overlaps of each row from rows_1 with
+# each row from rows_2
+export MakeOverlapsMaple := proc(rows1, rows2, sigma)
+	local f_sq_dist, sq_dists, overlaps;
+
+	if Size(rows1, 2) &lt;&gt; Size(rows2, 2) then
+		error &quot;rows1 and rows2 must have same number of columns&quot;;
+	end;
+
+	f_sq_dist := (v1, v2) -&gt; AddAlongDimension((v1 - v2) ^~ 2);
+	sq_dists := Matrix(Size(rows1, 1), Size(rows2, 1), (i, j) -&gt; f_sq_dist(rows1[i, ..], rows2[j, ..]), datatype=float[8]);
+	overlaps := Matrix(Size(rows1, 1), Size(rows2, 1), (i, j) -&gt; exp(-sq_dists[i, j] / (4 * sigma ^ 2)), datatype=float[8]);
+	overlaps := Matrix(Size(rows1, 1), Size(rows2, 1), (i, j) -&gt; if overlaps[i, j] &gt;= 1e-12 then overlaps[i, j] else 0 end, datatype=float[8]);
+
+	return overlaps;
+end; # function MakeOverlapsMaple
+
+# build and return transpose of 'similarity' matrix (used to convert from basis of basis rows to basis of orthonormal basis eigenstates)
+export MakeSimtMaple := proc(overlaps_in)
+	local overlaps, eigvals, eigvecs, eigvec_norms, eigval_diffs, keep_idxs, inverse_sqrt_eigenvals, eigvecs_norm, eigvecs_norm_t;
+	local mat, mat_diag;
+
+	# make it an actual symmetric matrix (so that eigenvalues come out as real numbers)
+	overlaps := Matrix(overlaps_in, shape=symmetric, datatype=float[8]);
+
+	eigvals, eigvecs := Eigenvectors(overlaps);
+
+	# verify that eigenvectors are all normalized
+	eigvec_norms := GetRowNorms(Transpose(eigvecs));
+	if max(abs(eigvec_norms -~ 1)) &gt; 1e-6 then
+		error &quot;overlap eigenvectors must be normalized&quot;;
+	end;
+
+	# verify that eigenvalues are in ascending order
+	eigval_diffs := eigvals[2..-1] - eigvals[1..-2];
+	if min(eigval_diffs) &lt; 0 then
+		error &quot;overlap eigenvalues must be in non-decreasing order&quot;;
+	end;
+
+	# throw away very small eigenvalues
+	keep_idxs := select(i -&gt; i &gt; 1e-5, [$1..Dimension(eigvals)]); # eigenvals &gt; 1e-5
+	eigvals := eigvals[keep_idxs];
+ 	eigvecs := eigvecs[.., keep_idxs];
+
+	# compute normalized eigenstates from the eigenvectors
+	#
+	# we want the eigenstates to have L2 norms of 1 in the eigenbasis space.  with the current eigenvectors,
+	# converting the overlap matrix to the eigenbasis space looks like this:
+	#        eigenvecs.T @ overlaps @ eigenvecs = L,
+	#  ... where L is a diagonal matrix with the eigenvalues along the diagonal.
+	#
+	# if we create normalized eigenstates by dividing each eigenvector by the square root of it associated
+	# eigenvalue, then the conversion to the eigenbasis space looks like this:
+	#        eigenvecs_norm.T @ overlaps @ eigenvecs_norm = I,
+	# ... where I is the identity matrix, which is what we want.
+	inverse_sqrt_eigenvals := DiagonalMatrix(eigvals ^~ (-0.5));
+	eigvecs_norm := eigvecs.inverse_sqrt_eigenvals;
+	eigvecs_norm_t := Transpose(eigvecs_norm);
+
+	# TEMP/DEBUGGING DOUBLE-CHECK: THIS OPERATION SHOULD PRODUCE THE IDENTITY MATRIX
+	mat := eigvecs_norm_t.overlaps.eigvecs_norm;
+	mat_diag := Diagonal(mat);
+	if max(abs(mat_diag -~ 1)) &gt; 1e-6 then
+		error &quot;diagonal of check matrix should be all ones&quot;;
+	end;
+	mat := mat - DiagonalMatrix(mat_diag);
+	if max(abs(mat)) &gt; 1e-6 then
+		error &quot;off-diagonal elements of check matrix should be all zeros&quot;;
+	end;
+
+    return eigvecs_norm_t;
+end; # function MakeSimtMaple
+
+
+# same functionality as BuildOverlapsC, but all in Maple
+export BuildOverlapsMaple := proc(sigma, basis_rows, rows)
+	local simt, row_overlaps, ortho_overlaps, overlaps;
+
+	# calculate basis-basis overlaps
+	overlaps := MakeOverlapsMaple(basis_rows, basis_rows, sigma);
+
+	# create the transposed 'similarity' matrix
+	simt := MakeSimtMaple(overlaps);
+
+	row_overlaps := MakeOverlapsMaple(basis_rows, rows, sigma);
+
+	# convert the 'other' overlaps to the orthonormal basis of eigenstates
+	ortho_overlaps := simt.row_overlaps;
+
+	# calculate L2-norm of total overlaps for the rows (which are in the columns of ortho_overlaps)
+	overlaps := GetRowNorms(Transpose(ortho_overlaps));
+
+    return overlaps;
+end; # function BuildOverlapsMaple
+
+
+# same functionality as MakeOperatorsC, but all in Maple
+export MakeOperatorsMaple := proc(mat, n_basis, n_potential, sigma, step, mass, new_ham)
+	local num_rows, basis_rows, potential_rows, overlaps, simt, xops, v0, exph;
+
+	num_rows := Size(mat, 1);
+
+	if n_basis &gt; num_rows or n_potential &gt; num_rows then
+		error &quot;n_basis and n_potential must both be &lt;= number of rows&quot;;
+	end;
+
+	basis_rows := copy(mat[1..n_basis, ..]);
+	potential_rows := copy(mat[1..n_potential, ..]);
+
+	# calculate basis-basis overlaps
+	overlaps := MakeOverlapsMaple(basis_rows, basis_rows, sigma);
+
+	# create the transposed 'similarity' matrix
+	simt := MakeSimtMaple(overlaps);
+
+	# create the position-expectation operator matrices
+	xops := MakePositionOperatorsMaple(basis_rows, overlaps, simt);
+
+	# create the raw initial potential matrix
+	v0 := MakeRawPotentialMaple(potential_rows, basis_rows, overlaps, sigma);
+
+	# create the Hamiltonian time-evolution exponentiation operator matrix
+	exph := MakeHamiltonianMaple(basis_rows, overlaps, simt, v0, sigma, step, mass, new_ham);
+
+	return exph, xops, simt;
+end; # function MakeOperatorsMaple
+
+
+# create and return an &lt;n_basis x n_basis x num_dims&gt; array of basis-basis midpoints
+export MakeBasisBasisMidpoints := proc(basis_rows)
+	local n_basis, n_cols, midpoints, row_idx1, row_idx2, midpoint;
+
+	# calculate coordinate of all pairwise basis-basis midpoints (&lt;n x n x num_dims&gt;)
+	n_basis := Size(basis_rows, 1);
+	n_cols := Size(basis_rows, 2);
+	midpoints := Array(1..n_basis, 1..n_basis, 1..n_cols);
+	for row_idx1 from 1 to n_basis do
+		for row_idx2 from row_idx1 to n_basis do
+			if row_idx1 = row_idx2 then
+				midpoints[row_idx1, row_idx1, ..] := basis_rows[row_idx1, ..];
+			else
+				midpoint := (basis_rows[row_idx1, ..] + basis_rows[row_idx2, ..]) /~ 2.;
+				midpoints[row_idx1, row_idx2, ..] := midpoint;
+				midpoints[row_idx2, row_idx1, ..] := midpoint;
+			end;
+		end;
+	end;
+
+	return midpoints;
+end; # function MakeBasisBasisMidpoints
+
+
+# create the position-expectation operator matrices
+export MakePositionOperatorsMaple := proc(basis_rows, overlaps, simt)
+	local midpoints, n_basis, n_cols, xops, sim, col_idx, midpoint_coords, xop;
+
+	midpoints := MakeBasisBasisMidpoints(basis_rows);
+
+	# for each dimension/column, multiply by overlaps and convert to basis-eigenstate representation
+	n_basis := Size(basis_rows, 1);
+	n_cols := Size(basis_rows, 2);
+	xops := Array(1..n_cols);
+	sim := Transpose(simt);
+	for col_idx from 1 to n_cols do
+		midpoint_coords := midpoints[.., .., col_idx];
+		xop := midpoint_coords *~ overlaps;
+		xop := simt.xop.sim;
+		xops[col_idx] := xop;
+	end;
+
+	return xops;
+end; # function MakePositionOperatorsMaple
+
+
+# create the raw initial potential matrix
+export MakeRawPotentialMaple := proc(potential_rows, basis_rows, overlaps, sigma)
+	local midpoints, n_basis, psi, lpl, row_idx, rw, sq_dists, row_idx1, row_idx2, midpoint;
+	local delta, sq_dist, row_psi, row_lpl, pot;
+
+	midpoints := MakeBasisBasisMidpoints(basis_rows);
+
+	# each row will make a contribution to the wave function at each basis/basis midpoint
+	n_basis := Size(basis_rows, 1);
+	psi := Matrix(n_basis, n_basis, datatype=float[8]);
+
+	# each row will make a contribution to the second derivative of the wave function (the Laplacian)
+	# at each basis/basis midpoint
+	lpl := Matrix(n_basis, n_basis, datatype=float[8]);
+
+	for row_idx from 1 to Size(potential_rows, 1) do
+		rw := potential_rows[row_idx, ..];
+
+		# get squared distance from the row to each basis/basis midpoint
+		sq_dists := Matrix(n_basis, n_basis, datatype=float[8]);
+		for row_idx1 from 1 to n_basis do
+			for row_idx2 from row_idx1 to n_basis do
+				midpoint := midpoints[row_idx1, row_idx2, ..];
+				delta := midpoint - rw;
+				sq_dist := AddAlongDimension(delta ^~ 2);
+				sq_dists[row_idx1, row_idx2] := sq_dist;
+				if row_idx1 &lt;&gt; row_idx2 then
+					sq_dists[row_idx2, row_idx1] := sq_dist;
+				end;
+			end;
+		end;
+
+		# calculate this row's contribution to the wave function at each basis/basis midpoint
+		row_psi := (sd -&gt; exp(-sd / (2 * sigma ^ 2)))~(sq_dists);
+
+		# calculate each row's contribution to the Laplacian at each basis/basis midpoint
+		row_lpl := sq_dists *~ row_psi;
+
+        # aggregate the wave function and the Laplacian of the wave function
+        psi := psi + row_psi;
+        lpl := lpl + row_lpl;
+	end; # for each potential row
+
+	# calculate the potential at each basis/basis midpoint and multiply by the basis-basis overlaps.
+	pot := lpl /~ psi;
+	pot := pot *~ overlaps;
+
+	return pot;
+end; # function MakeRawPotentialMaple
+
+
+# create the Hamiltonian time-evolution exponentiation operator matrix
+export MakeHamiltonianMaple := proc(basis_rows, overlaps, simt, v0, sigma, step, mass, new_ham)
+	local n_basis, sq_dists, row_idx1, row_idx2, delta, sq_dist, h0, h, sim, h_trunc, exph;
+
+	# calculate all pairwise basis-basis squared distances (&lt;n x n&gt;)
+	n_basis := Size(basis_rows, 1);
+	sq_dists := Matrix(n_basis, n_basis, datatype=float[8]);
+	for row_idx1 from 1 to n_basis - 1 do
+		for row_idx2 from row_idx1 + 1 to n_basis do
+			delta := basis_rows[row_idx1, ..] - basis_rows[row_idx2, ..];
+			sq_dist := AddAlongDimension(delta ^~ 2);
+			sq_dists[row_idx1, row_idx2] := sq_dist;
+			sq_dists[row_idx2, row_idx1] := sq_dist;
+		end;
+	end;
+
+	h0 := -overlaps *~ sq_dists;
+
+	if new_ham then
+		# notes:
+		#  * the 1/sigma^2 factor for V0 is explicit here -- in the old version it was implicitly absorbed into
+		#    the choice of mass.  making it explicit here makes the whole system scale-invariant (if raw data
+		#    and sigma are both multiplied by an arbitrary scalar factor, the dynamics do not change), and
+		#    it decouples the choice of mass from sigma.
+		#  * a factor of 8 in the old version has now been absorbed into the choice of mass.
+		h := v0 + (h0 /~ mass);
+		h := h /~ (sigma ^ 2);
+	else
+		h0 := h0 /~ (8 * sigma ^ 2);
+		h := v0 + (h0 /~ mass);
+	end;
+
+	# convert raw hamiltonian to the eigenbasis
+	sim := Transpose(simt);
+	h_trunc := simt.h.sim;
+
+	### build the exponentiation/iteration operator
+	exph := MakeHamiltonianExpIterMaple(h_trunc, step);
+
+	return exph;
+end; # function MakeHamiltonianMaple
+
+
+# create the Hamiltonian time-evolution exponentiation operator matrix from the initial Hamiltonian
+#
+# exponentiate the hamiltonian from time 0 to time 'step'
+#
+# for the time evolution of a single point's wave function, we use the time-dependent Shrodinger equation:
+#     i * h * d/dt(psi) = H(psi)
+# ... where, again, for simplicity, we set the Planck constant h (actually h bar) equal to 1, so:
+#     d/dt(psi) = -i * H(psi)
+# because H does not depend on time, we can integrate easily:
+#     psi(t) = e^(-i * H * t) * psi(0)
+# in this method, we create the matrix for the 'exponentiation' operator E:
+#     psi(t) = E(psi(0)), where E = e^(-i * H * t) and t = step
+#
+# to simplify exponentiation of the Hamiltonian matrix, we find the eigenvalues and eigenvectors, exponentiate
+# the eigenvalues along the diagonal of a matrix (with zeros elsewhere), then use the eigenvectors to convert
+# the matrix back to the original representation.
+#
+export MakeHamiltonianExpIterMaple := proc(h, step)
+	local h_sym, eigvals, eigvecs, eigvec_norms, eigval_diffs, diag_elems, eigvecs_t, exph;
+
+	h_sym := Matrix(h, datatype=float[8], shape=symmetric); # make it actually symmetric so that eigvenvales come back as real numbers)
+	eigvals, eigvecs := Eigenvectors(h_sym);
+
+	# verify that eigenvectors are all normalized
+	eigvec_norms := GetRowNorms(Transpose(eigvecs));
+	if max(abs(eigvec_norms -~ 1)) &gt; 1e-6 then
+		error &quot;overlap eigenvectors must be normalized&quot;;
+	end;
+
+	# verify that eigenvalues are in ascending order
+	eigval_diffs := eigvals[2..-1] - eigvals[1..-2];
+	if min(eigval_diffs) &lt; 0 then
+		print(convert(eigvals, list));
+		error &quot;overlap eigenvalues must be in non-decreasing order&quot;;
+	end;
+
+	# the eigenvalues of the Hamiltonian represent different energy levels, but differences in energy
+	# levels are the only things we actually care about.  if the overall energy is large, all eigenvalues will be
+	# large, creating the possibility of losing information about differences between energy levels at
+	# the machine-precision level.  subtracting the first (smallest) energy level from every energy level
+	# avoids this potential problem.
+	eigvals := eigvals -~ eigvals[1];
+
+	diag_elems := (x -&gt; exp(-I * step * x))~(eigvals); # exponentiate the eigenvalues
+	diag_elems := DiagonalMatrix(diag_elems); # convert from vector to diagonal matrix
+
+	# convert back to original representation (mathematically, this is the inverse of the conversion process
+	# described in the comments in build_basis (eigenvecs.T @ overlaps @ eigenvecs = L)
+	eigvecs_t := Transpose(eigvecs);
+	exph := eigvecs.diag_elems.eigvecs_t;
+
+	return exph;
+end; # function MakeHamiltonianExpIterMaple
+
+
+# same functionality as BuildFramesAutoC, but all in Maple
+export BuildFramesMaple := proc(num_frames_to_build, current_frame, basis_rows, simt, xops, exph,
+							sigma, stopping_threshold, rescale)
+	local num_rows, num_cols, combo_op, evolving_row_idxs, stopped_row_idxs, frames, last_frame, frame_idx, new_frame;
+	local overlap_vecs, new_states, state_idx, new_positions, dists;
+
+	num_rows := Size(current_frame, 1);
+	num_cols := Size(current_frame, 2);
+
+	if num_cols &lt;&gt; Size(basis_rows, 2) then
+		error &quot;number of columns must be consistent&quot;;
+	end;
+	if sigma &lt;= 0 then
+		error &quot;sigma must be positive&quot;;
+	end;
+
+	# create combined operator
+	combo_op := exph.simt;
+
+	evolving_row_idxs := [$1..num_rows];
+	stopped_row_idxs := [];
+	frames := copy(current_frame);
+	last_frame := current_frame;
+	for frame_idx from 1 to num_frames_to_build do
+		new_frame := Matrix(num_rows, num_cols, datatype=float[8]);
+
+		if nops(evolving_row_idxs) &gt; 0 then
+			# get basis-overlap vectors for each evolving row
+			overlap_vecs := MakeOverlapsMaple(basis_rows, last_frame[evolving_row_idxs, ..], sigma);
+
+			# apply combined operator to get evolved states
+			new_states := combo_op.overlap_vecs;
+
+			# normalize new states
+			# 2FIX: DISCUSS W/ MARVIN THE PHYSICAL SIGNIFICANCE OF HAVING TO RENORMALIZE THE EVOLVED
+			# STATES, THEN EXPLAIN IT HERE
+			# ANSWER: NON-BASIS OVERLAP RECONSTRUCTIONS ARE NOT NORMALIZED, WHICH IS WHY THESE EVOLVED
+			# STATES ARE NOT NORMALIZED
+			# 2TEST: IS THIS STILL AN ISSUE WHEN USING A FULL BASIS?  (MARVIN THINKS NOT, I WANT TO CHECK)
+			# 2TEST: HOW TO DIRECTLY VERIFY THAT STEP=0 DELTAS ARE NEGLIGIBLE COMPARED TO THE STEP&gt;0
+			# DELTAS UNDER NORMAL CIRCUMSTANCES?  (AND HOW MUCH DOES IT MATTER WHETHER OR NOT THIS
+			# RENORMALIZATION STEP IS TURNED ON?)
+			for state_idx from 1 to Size(new_states, 2) do
+				new_states[.., state_idx] := new_states[.., state_idx] /~ Norm(new_states[.., state_idx], 2);
+			end;
+
+			# get new expected position for each evolved state
+			new_positions := ExpectedPositionsMaple(new_states, xops);
+
+			if rescale then
+				# L2-normalize (i.e., project to unit hypersphere)
+				new_positions := L2NormalizeRowsMaple(new_positions);
+			end;
+
+			# put new positions into new frame
+            	new_frame[evolving_row_idxs, ..] := new_positions;
+		end; # if any rows still evolving
+
+		if nops(stopped_row_idxs) &gt; 0 then
+			# copy last positions forward for stopped rows
+			new_frame[stopped_row_idxs, ..] := last_frame[stopped_row_idxs, ..];
+		end;
+
+		# update lists of evolving and stopped rows
+		dists := Vector(num_rows, i -&gt; Norm(new_frame[i, ..] - last_frame[i, ..], 2));
+		evolving_row_idxs, stopped_row_idxs := selectremove(i -&gt; dists[i] &gt;= stopping_threshold, [$1..num_rows]);
+
+		frames := Concatenate(3, frames, new_frame);
+		last_frame := new_frame;
+	end; # for each new frame
+
+	return frames;
+end; # function BuildFramesMaple
+
+
+export ExpectedPositionsMaple := proc(states, xops)
+	local num_states, num_dims, positions, state_idx, state, state_real, state_imag, state_real_t, state_imag_t;
+	local real_mat, imag_mat, norm_mat, dim_idx, temp_mat, coord;
+
+	num_states := Size(states, 2);
+	num_dims := Dimension(xops);
+
+	positions := Matrix(num_states, num_dims, datatype=float[8]);
+
+	# calculate expected position for each state
+	for state_idx from 1 to num_states do
+		state := states[.., state_idx];
+		state_real := Re~(state);
+		state_imag := Im~(state);
+
+		# cartesian product of real values for the state
+		state_real_t := Transpose(state_real);
+		real_mat := state_real.state_real_t;
+
+		# cartesian product of imaginary values for the state
+		state_imag_t := Transpose(state_imag);
+		imag_mat := state_imag.state_imag_t;
+
+		# note: this is +, not a -, because we take the complex conjugate of 1 of them
+		norm_mat := real_mat + imag_mat;
+
+		for dim_idx from 1 to num_dims do
+			temp_mat := norm_mat *~ xops[dim_idx];
+			coord := AddAlongDimension(convert(temp_mat, Vector));
+			positions[state_idx, dim_idx] := coord;
+		end;
+	end; # for each state
+
+	return positions;
+end; # function ExpectedPositionsMaple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### THIS NESTED MODULE IS THE DQC CLASS WITHIN THE COREDQC PACKAGE. #####
+export DQC := module()
+
+
+option object;
+description &quot;DQC class inside the CoreDQC package&quot;;
+
+
+### these are the instance member variables for a DQC object
+export verbose, min_report_time;
+export raw_data, frames;
+export call_c, rescale, new_ham;
+export pca_transform, norm_by_s1, pca_var_threshold, pca_num_dims, raw_col_means;
+export pca_eigvals, pca_eigvecs, pca_cum_var;
+export svd_u, svd_s, svd_vt;
+export add_dummy_col, manual_dummy_val, dummy_max_mult, dummy_val;
+export basis_size, basis_method, basis_num_chunks, basis_rand_seed, basis_start_with_outlier, basis_row_nums, non_basis_row_nums, basis_rows;
+export overlap_min_threshold, overlap_mean_threshold;
+export sigma, step, mass;
+export simt, xops, exph;
+export mean_row_distance, stopping_threshold;
+
+
+# default constructor
+#
+# calling syntax:
+#     dqc_obj := DQC();
+#
+export ModuleApply::static := proc()
+	local self;
+
+	self := Object(DQC);
+
+	self:-verbose := true;
+	self:-min_report_time := 10; # report execution times that are 10 seconds or longer
+
+	self:-raw_data := [];
+	self:-frames := [];
+
+	# boolean flag -- whether to call C++ functions or not (all-Maple versions of the code are generally much slower)
+	# note: doesn't apply to secondary functions (AddSecondary, etc.)
+	self:-call_c := true;
+
+	# boolean -- whether to rescale/renormalize, by projection to the unit hypersphere (i.e., L2-normalization), initially
+	# and after each iteration of the evolution.  (note: adding a dummy column is particularly important when rescale and
+	# pca_transform are both true, to avoid significant distortion of the data in the rescaling projections.)
+	self:-rescale := false;
+
+	# boolean -- whether to use the new version of the Hamiltonian (with V0 and H0 both divided by sigma^2,
+	# and an old factor of 8 absorbed into the choice of mass)
+	self:-new_ham := true;
+
+	### for PCA
+	# note: if pca_transform is false, all other PCA-related settings (including raw_col_means) are ignored
+	self:-pca_transform := true; # whether to do PCA rotation/projection of the data
+	# whether to scale the transformed data by the first SVD singular value
+	self:-norm_by_s1 := false;
+	# minimum proportion of cumulative variance to keep when choosing how many PCA dimensions to use
+	# (ignored if pca_num_dims is &gt; 0).  default of 1 means use all PCA dimensions.
+	self:-pca_var_threshold := 1;
+	# number of PCA dimensions to use in the rotated data matrix (set to positive value to override pca_var_threshold)
+	self:-pca_num_dims := 0;
+	# raw-data column means (needed for out-of-sample operations)
+	self:-raw_col_means := [];
+	# vector of PCA eigenvalues (largest first)
+	self:-pca_eigvals := [];
+	# matrix with PCA eigenvectors in the columns (columns correspond to entries in pca_eigvals)
+	self:-pca_eigvecs := [];
+	# vector of cumulative proportional variance by PCA dimension (this is just the normalized
+	# cumulative sum of PCA eigenvalues)
+	self:-pca_cum_var := [];
+
+	### for SVD
+	# store SVD info as well as PCA info
+	self:-svd_u := [];
+	self:-svd_s := [];
+	self:-svd_vt := [];
+
+	### for dummy column
+	# note: if add_dummy_col is false, all other dummy-column settings are ignored
+	self:-add_dummy_col := false;
+	# explicit value for the dummy column -- if not set, we use dummy_max_mult
+	self:-manual_dummy_val := 0;
+	# if manual_dummy_val is not set, dummy-column value will be:
+	#     max(abs(&lt;pca-rotated data&gt;)) * self.dummy_max_mult
+	self:-dummy_max_mult := 20;
+	# record of actual dummy-column value (before rescaling)
+	self:-dummy_val := 0;
+
+	### for choosing and storing basis
+	self:-basis_size := 0;
+	# 'distance' is the only basis-selection method currently implemented
+	# [2FIX: implement 'overlap' version from original DQClib module?]
+	self:-basis_method := &quot;distance&quot;;
+	self:-basis_num_chunks := 1;
+	self:-basis_rand_seed := 1;
+	# note: starting with outlier will be very slow (O(n^2)) for large number of points
+	self:-basis_start_with_outlier := true;
+	self:-basis_row_nums := [];
+	self:-non_basis_row_nums := [];
+	self:-basis_rows := [];
+
+	### for choosing sigma
+	self:-overlap_min_threshold := 0.5;
+	self:-overlap_mean_threshold := 0.9;
+
+	### DQC parameters
+	self:-sigma := 0;
+	self:-step := 0.1;
+	# note: mass usually needs to be changed when new_ham is true (see default_mass_for_num_dims)
+	self:-mass := 0.1;
+
+	### DQC operators
+	# transpose of similarity matrix
+	self:-simt := [];
+	# 1-D array of position-expectation operator matrices (one operator matrix per dimension)
+	self:-xops := [];
+	# Hamiltonian time-evolution exponentiation operator matrix
+	self:-exph := [];
+
+	### for building frames
+	self:-mean_row_distance := 0;
+	# -1 is a sentinel value which will trigger a call to SetStoppingThreshold.  set manually to 0 to
+	# turn off stopping logic entirely in BuildFrames (but note that a value of 0 will raise an error
+	# in BuildFramesAuto).
+	self:-stopping_threshold := -1;
+
+	return self;
+end; # default constructor
+
+
+# use a simple heuristic formula (derived from random-data experiments) to return a suggested default value of mass for
+# a given number of dimensions.  (see Zander's Python sandbox notebook 'explore_step_mass_values'.)
+#
+# designed to be used with new_ham set to true and the default step value of 0.1.
+#
+# note: for any given data set, the effective dimensionality of the data cloud could be significantly
+# lower than the number of dimensions being used, which could affect the appropriateness of the suggested
+# value of mass.  we make no attempt to deal with that issue here.
+#
+# inputs:
+#  * num_dims: optional number of dimensions.  if 0 (the default), we attempt to infer the number of dimensions from
+#    self:-frames (including the dummy-column dimension, if one is being used).
+# output:
+#  * mass: suggested default mass value for the given number of dimensions
+#
+export DefaultMassForNumDims::static := proc(self::DQC, num_dims_in:=0)
+	local num_dims, mass;
+
+	num_dims := num_dims_in;
+	if num_dims = 0 then
+		if not type(self:-frames, Array) then
+			error &quot;must have a number of dimensions (passed in or from self:-frames) to return a suggested default mass&quot;;
+		else
+			# 2FIX: we're including the dummy colum (if there is one), in the number of dimensions, which maybe we shouldn't
+			num_dims := Size(self:-frames, 2);
+		end;
+	end;
+
+	# simply heuristic formula, derived from experiments with uniform-rand data
+	mass := -1 + 2 * log10(num_dims);
+	# for very small number of dimensions (&lt;= 3), make sure mass is positive and big enough to avoid oscillation
+	mass := max(mass, 0.1);
+
+	if self:-verbose then
+		printf(&quot;suggested mass for %d dimensions is %.3f\134n&quot;, num_dims, mass);
+	end;
+
+	return evalf(mass);
+end; # method DefaultMassForNumDims
+
+
+# run PCA on the raw data (which must exist in self:-raw_data) and store results
+export RunPCA::static := proc(self::DQC)
+	local t0, t1, dat_centered, num_rows, num_cols;
+
+	t0 := time[real]();
+
+	if not (type(self:-raw_data, Matrix) or type(self:-raw_data, Array)) then
+		error &quot;must have raw data in order to run PCA&quot;;
+	end;
+
+	dat_centered, self:-raw_col_means := CenterColumns(self:-raw_data);
+	num_rows := Size(dat_centered, 1);
+	num_cols := Size(dat_centered, 2);
+
+	self:-svd_u, self:-svd_s, self:-svd_vt := SingularValues(dat_centered, output=['U', 'S', 'Vt'], thin=true);
+	self:-svd_s := self:-svd_s[1..min(num_rows, num_cols)];
+
+	# also store the PCA version of the info
+	self:-pca_eigvecs := Transpose(self:-svd_vt);
+	self:-pca_eigvals := (self:-svd_s ^~ 2) /~ (num_rows - 1);
+
+	if min(self:-pca_eigvals) &lt; 0 then
+		error &quot;all PCA eigenvalues must be nonnegative&quot;;
+	end;
+
+	# calculate cumulative variance of PCA dimensions (variance of each dimension is proportional to
+	# the eigenvalue for that dimension)
+	self:-pca_cum_var := CumulativeSum(self:-pca_eigvals);
+	self:-pca_cum_var := self:-pca_cum_var /~ self:-pca_cum_var[-1];
+	self:-pca_cum_var := Vector(self:-pca_cum_var);
+
+	t1 := time[real]();
+
+	if self:-verbose then
+		if t1 - t0 &gt;= self:-min_report_time then
+			printf(&quot;ran PCA in %.1f seconds\134n&quot;, t1 - t0);
+		end;
+		PlotSVD(self:-svd_s)
+	end;
+
+	return NULL;
+end; # method RunPCA
+
+
+# clear/reset all PCA/SVD results
+export ClearPCA::static := proc(self::DQC)
+
+	self:-pca_num_dims := 0;
+	self:-raw_col_means := [];
+	self:-pca_eigvals := [];
+	self:-pca_eigvecs := [];
+	self:-pca_cum_var := [];
+
+	self:-svd_u := [];
+	self:-svd_s := [];
+	self:-svd_vt := [];
+
+	return NULL;
+end; # method ClearPCA
+
+
+# return the value to be used in a dummy column, based on parameter settings and the matrix passed in.
+#
+# we use self.manual_dummy_val as the explicit dummy-column value, if it's set.  otherwise, we use
+# self.dummy_max_mult, in which case the dummy-column value will be self.dummy_max_mult * max(abs(mat).
+export DummyColumnValue::static := proc(self::DQC, mat_in::rtable)
+	local mat, max_val, dummy_val;
+
+	mat := Float8Matrix(mat_in);
+	max_val := max(abs(mat));
+
+	if self:-manual_dummy_val = 0 and self:-dummy_max_mult = 0 then
+		error &quot;must set either manual_dummy_val or dummy_max_mult to choose dummy-column value&quot;;
+	end;
+
+	if self:-manual_dummy_val = 0 then
+		dummy_val := self:-dummy_max_mult * max_val;
+	else
+		dummy_val := self:-manual_dummy_val;
+	end;
+
+	if dummy_val = 0 then
+		error &quot;dummy_val cannot be zero&quot;;
+	end;
+
+	if abs(dummy_val) &lt; max_val then
+		printf(&quot;### WARNING: dummy-column value is only %.1f%% of maximum value in matrix ###\134n&quot;,
+				100 * abs(dummy_val) / max_val);
+	end;
+
+	if self:-verbose then
+		printf(&quot;chosen dummy-column value %.4f has effective multiplicative factor %.2f\134n&quot;,
+				dummy_val, dummy_val / max_val);
+	end;
+
+	return dummy_val;
+end; # method DummyColumnValue
+
+
+# choose and store how many pca dimensions to use, based on PCA cumulative variance and instance parameters.
+export ChooseNumPCADimsByVariance::static := proc(self::DQC)
+	local idxs, i;
+
+	if not type(self:-pca_cum_var, Vector) then
+		error &quot;must have pca_cum_var in order to choose number of PCA dimensions by variance threshold&quot;;
+	end;
+
+	if self:-pca_var_threshold &lt;= 0 or self:-pca_var_threshold &gt; 1 then
+		error &quot;pca_var_threshold must be in (0, 1]&quot;;
+	end;
+
+	if self:-pca_var_threshold = 1 then
+		self:-pca_num_dims := Dimension(self:-pca_cum_var); # make this case explicit to avoid machine-precision corner cases
+	else
+		# find minimum number of dimensions that satisfies explained-variance threshold
+		idxs := select(i -&gt; self:-pca_cum_var[i] &gt;= self:-pca_var_threshold, [$1..Dimension(self:-pca_cum_var)]);
+		self:-pca_num_dims := idxs[1];
+	end;
+
+	return NULL;
+end; # method ChooseNumPCADimsByVariance
+
+
+# estimate and store the mean distance between rows in frame 1 (which must exist).
+#
+# use a successively larger number of row pairs to estimate the overall mean distance, until the
+# 'relative error' (standard error of the mean divided by the mean) drops below the given threshold.
+#
+# inputs:
+#    * rel_err_threshold: threshold for 'relative error' (standard error of mean divided by mean)
+#    * max_n: maximum number of distances to test (also limited to half the total number of rows in frame 1)
+#    * rand_seed: random seed for choosing row pairs for distance calculations
+export EstimateMeanRowDistance::static := proc(self::DQC, rel_err_threshold:=0.01, max_n:=1e4, rand_seed:=500)
+	local rows, num_rows, row_nums, old_rand_seed, max_num, current_num, finished;
+	local rand_row_nums, rand_row_nums1, rand_row_nums2, dists, mu, rel_err;
+
+	if not type(self:-frames, Array) then
+		error &quot;must have frame 1 to estimate mean distance between rows&quot;;
+	end;
+
+	rows := Float8Matrix(self:-frames[.., .., 1]);
+
+	num_rows := Size(rows, 1);
+	row_nums := [$1..num_rows];
+
+	# get current random seed (for resetting at the end) and set random seed
+	old_rand_seed := GetState():
+	SetState(state=rand_seed);
+	max_num := min(max_n, floor(num_rows / 2));
+	current_num := min(100, max_num); # start by testing 100 distances (or fewer)
+
+	finished := false;
+	while not finished do
+		rand_row_nums := randperm(num_rows);
+		rand_row_nums1 := rand_row_nums[1..current_num];
+		rand_row_nums2 := rand_row_nums[current_num + 1..2 * current_num];
+		dists := Vector(current_num, i -&gt; Norm(rows[rand_row_nums1[i], ..] - rows[rand_row_nums2[i], ..], 2), datatype=float[8]);
+		mu := Mean(dists);
+
+		# 'relative error' is standard error of the mean divided by the mean
+          rel_err := evalf(StandardDeviation(dists) / (mu * sqrt(current_num)));
+
+		finished := evalb(rel_err &lt;= rel_err_threshold);
+		if not finished then
+			current_num := round(current_num * 1.5);
+			if current_num &gt; max_num then
+				break;
+			end;
+		end;
+	end; # while not finished
+
+	if self:-verbose then
+		printf(&quot;estimated mean distance between rows is %.5f (relative error %.1f%%)\134n&quot;, mu, 100 * rel_err);
+	end;
+
+	self:-mean_row_distance := mu;
+
+	# reset to original random seed
+	SetState(state=old_rand_seed);
+
+	return NULL;
+end; # method EstimateMeanRowDistance
+
+
+# create frame 1 from raw data.
+#
+# if dat_raw is passed in, we return the created frame 1.  otherwise, we use self:-raw_data and
+# store the created frame 1 in self:-frames.
+#
+# inputs:
+#   * dat_raw: raw-data matrix.  if not passed in, we use self:-raw_data.  default [].
+#   * set_dummy_val: boolean -- if false, and if self:-add_dummy_col is true, we assert that a
+#     dummy-column value exists in self:-dummy_val.  (this is a safeguard to make sure that
+#     'out-of-sample' raw data is never accidentally used to set/reset the dummy-column value.)
+#     ignored if self:-add_dummy_col is false.  default false.
+#
+# output:
+#   * if 'dat_raw' is passed in, we return frame 1.  otherwise, we return NULL.
+export CreateFrame1::static := proc(self::DQC, dat_raw:=[], set_dummy_val:=false)
+	local t0, t1, dat, col_idx, dummy_col, frame1;
+
+	if dat_raw = [] then
+		# do 'in-sample' setup based on self:-raw_data, then create frame 1 and store it in self:-frames
+
+		if not (type(self:-raw_data, Matrix) or type(self:-raw_data, Array)) then
+			error &quot;must have raw data to build frame 1&quot;;
+		end;
+		if type(self:-frames, Array) and Size(self:-frames, 3) &gt; 1 then
+			error &quot;must not already have multiple frames when creating frame 1 (use ClearFrames to clear frames)&quot;;
+		end;
+
+		if self:-pca_transform then
+			if not type(self:-pca_eigvecs, Matrix) then
+				RunPCA(self);
+			end;
+			if self:-pca_num_dims = 0 then
+				ChooseNumPCADimsByVariance(self);
+			end;
+		end;
+
+		# create frame 1 based on self:-raw_data, allowing setting of dummy-column value
+		self:-frames := CreateFrame1(self, self:-raw_data, true);
+
+		return NULL;
+	end; # if using self:-raw_data
+
+	t0 := time[real]();
+
+	dat := copy(Float8Matrix(dat_raw));
+
+	if self:-pca_transform then
+		if not type(self:-raw_col_means, Vector) or not type(self:-pca_eigvecs, Matrix) or self:-pca_num_dims = 0 then
+			error &quot;must have PCA results and settings to apply PCA transformation to raw data&quot;;
+		end;
+
+		# center the raw data (always using the 'in-sample' column means)
+		if Size(dat, 2) &lt;&gt; Dimension(self:-raw_col_means) then
+			error &quot;'dat_raw' must have the expected number of columns&quot;;
+		end;
+		for col_idx from 1 to Size(dat, 2) do
+			dat[.., col_idx] := dat[.., col_idx] -~ self:-raw_col_means[col_idx];
+		end; # for each column
+
+		# rotate and truncate using the specified number of PCA dimensions
+		if Size(self:-pca_eigvecs, 2) &lt; self:-pca_num_dims then
+			printf(&quot;##### WARNING: pca_num_dims is set to %d, but only have %d PCA dimensions -- using all %d PCA dimensions...\134n&quot;,
+					self:-pca_num_dims, Size(self:-pca_eigvecs, 2), Size(self:-pca_eigvecs, 2));
+			dat := dat.self:-pca_eigvecs;
+		else
+			dat := dat.self:-pca_eigvecs[.., 1..self:-pca_num_dims];
+		end;
+
+		if self:-norm_by_s1 then
+			dat := dat /~ self:-svd_s[1];
+		end;
+
+		if self:-verbose then
+			printf(&quot;using %d of %d PCA dimensions (%.1f%% of total variance)\134n&quot;,
+					self:-pca_num_dims, Dimension(self:-pca_eigvals), 100 * self:-pca_cum_var[self:-pca_num_dims]);
+		end;
+	end; # if/else doing PCA transformation or not
+
+	if self:-add_dummy_col then
+		if set_dummy_val then
+			self:-dummy_val := DummyColumnValue(self, dat);
+		elif self:-dummy_val = 0 then
+			error &quot;must have dummy-column value to build frame 1&quot;;
+		end;
+		dummy_col := Vector[column](Size(dat, 1), i -&gt; self:-dummy_val, datatype=float[8]);
+		dat := Concatenate(2, dat, dummy_col);
+	end; # if adding dummy column
+
+	if self:-rescale then
+		if self:-call_c then
+			dat := L2NormalizeRows(dat);
+		else
+			dat := L2NormalizeRowsMaple(dat);
+		end;
+	end; # if rescaling
+
+	# make frame 1 a 3-D array
+	frame1 := Array(dat, datatype=float[8])(.., .., ..);
+
+	t1 := time[real]();
+	if self:-verbose and t1 - t0 &gt;= self:-min_report_time then
+		printf(&quot;created frame 1 in %.1f seconds\134n&quot;, t1 - t0);
+	end;
+
+	return frame1;
+end; # method CreateFrame1
+
+
+# set basis row nums, non-basis row nums, and basis rows
+# 
+# if basis_row_nums is passed in, we use them.  otherwise, we use all rows as the basis.
+export SetBasis::static := proc(self::DQC, basis_row_nums_in:=[])
+	local num_rows, basis_row_nums;
+
+	if not type(self:-frames, Array) then
+		error &quot;must have frame 1 to set basis&quot;;
+	end;
+
+	num_rows := Size(self:-frames, 1);
+
+	if basis_row_nums_in = [] then
+		basis_row_nums := [$1..num_rows];
+	else
+		basis_row_nums := copy(basis_row_nums_in);
+	end;
+
+	if not type(basis_row_nums, list) then
+		error &quot;basis_row_nums must be a list&quot;;
+	end;
+
+	if nops(basis_row_nums) = 0 then
+		error &quot;basis_row_nums must have at least 1 row number (use ClearBasis to clear the basis)&quot;;
+	end;
+	if min(basis_row_nums) &lt; 1 or max(basis_row_nums) &gt; num_rows or nops(basis_row_nums) &gt; num_rows or
+							nops(basis_row_nums) &lt;&gt; nops(convert(basis_row_nums, set)) then
+		error &quot;basis_row_nums must have valid, unique row numbers&quot;;
+	end;
+
+	self:-basis_row_nums := copy(basis_row_nums);
+	self:-non_basis_row_nums := convert(convert([$1..num_rows], set) minus convert(basis_row_nums, set), list);
+	self:-basis_rows := copy(Float8Matrix(self:-frames[basis_row_nums, .., 1])); # note: basis_rows is 2-D, not 3-D
+
+	return NULL;
+end; # method SetBasis
+
+
+# clear/reset basis-related results
+export ClearBasis::static := proc(self::DQC)
+
+	self:-basis_row_nums := [];
+	self:-non_basis_row_nums := [];
+	self:-basis_rows := [];
+
+	return NULL;
+end; # method ClearBasis
+
+
+# choose a basis based on distance and store the results.
+#
+# this function is in contrast to the original DQClib[SelectBasis] function in Maple, which chooses each
+# new basis point based on minimum overlap with the already-selected basis points.  The practical difference
+# between that approach and the one described here should be subtle in most cases.
+#
+# here, we select basis rows from frame 1 in the following way:
+#   * if self:-basis_start_with_outlier is true, we use the largest outlier as the first basis row, where the
+#     largest outlier is defined as the row whose nearest neighbor is farthest away.  otherwise, we choose a
+#     row at random as the first basis row.
+#   * for each subsequent basis row (until desired basis size is reached, as set by self:-basis_size), we choose
+#     the non-basis row whose closest distance to any current basis row is largest.
+#
+# if self:-basis_num_chunks is &gt; 1, we divide the rows into equal-size chunks (i.e., batches) and perform the
+# above operation separately on each chunk of rows (with an appropriately smaller basis size, so that the
+# overall basis size comes out right).  in this case, we randomly shuffle the rows before dividing them into
+# chunks (to avoid any possible pattern or bias in the row ordering).  more chunks will give a less 'accurate'
+# overall basis (since 2 basis points from 2 different chunks may be arbitrarily close to each other), but
+# the selection process will run significantly faster, since each chunk is O(n^2).
+export ChooseBasisByDistance::static := proc(self::DQC)
+	local shuffle_rows, randomizing, frame1, basis_row_nums, num_rows, num_chunks, basis_size, old_rand_seed;
+	local shuffled_row_idxs, num_per_chunk, start_idxs, end_idxs, i, chunk_basis_size, chunk_basis_sizes;
+	local t0, t1, chunk_idx, chunk_row_nums, chunk_rows, chunk_basis_idxs, chunk_basis_row_nums;
+
+	# if using multiple chunks, shuffle the rows to remove any bias in row ordering
+	shuffle_rows := evalb(self:-basis_num_chunks &gt; 1);
+	# if shuffling the rows or choosing a random start row, we'll need to set the random seed
+	randomizing := evalb(shuffle_rows or not self:-basis_start_with_outlier);
+
+	if not type(self:-frames, Array) then
+		error &quot;must have frame 1 to choose basis&quot;;
+	end;
+
+	frame1 := copy(Float8Matrix(self:-frames[.., .., 1]));
+
+	basis_row_nums := [];
+	num_rows := Size(frame1, 1);
+	num_chunks := self:-basis_num_chunks;
+	basis_size := self:-basis_size;
+
+	if basis_size &lt;= 0 or basis_size &gt;= num_rows then
+		error &quot;desired basis size must be positive and less than number of rows to choose basis&quot;;
+	end;
+
+	if self:-verbose then
+		printf(&quot;choosing %d basis rows by distance...\134n&quot;, basis_size);
+	end;
+
+	if randomizing then
+		# get current random seed (for resetting at the end) and set random seed
+		old_rand_seed := GetState():
+		SetState(state=self:-basis_rand_seed);
+	end;
+
+	if shuffle_rows then
+		shuffled_row_idxs := randperm(num_rows);
+		frame1 := frame1[shuffled_row_idxs, ..];
+	end;
+
+	# set up chunk row numbers
+	num_per_chunk := ceil(num_rows / num_chunks);
+	start_idxs := [seq(num_per_chunk * (i - 1) + 1, i=1..num_chunks)];
+	end_idxs := [seq(min(num_per_chunk * i, num_rows), i=1..num_chunks)];
+
+	# set up chunk basis sizes
+	chunk_basis_size := ceil(basis_size / num_chunks);
+	chunk_basis_sizes := [seq(chunk_basis_size, i=1..num_chunks)];
+	if num_chunks &gt; 1 then
+  		# tweak basis size for last chunk to make total come out right
+  		chunk_basis_sizes[-1] := basis_size - AddAlongDimension(Vector(chunk_basis_sizes[1..-2]));
+	end;
+
+	t0 := time[real]();
+
+	# choose basis rows for each chunk
+	for chunk_idx from 1 to num_chunks do
+		chunk_basis_size := chunk_basis_sizes[chunk_idx];
+		chunk_row_nums := [$start_idxs[chunk_idx]..end_idxs[chunk_idx]];
+		chunk_rows := frame1[chunk_row_nums, ..];
+		chunk_basis_idxs := ChooseBasisByDistanceSingleChunk(self, chunk_rows, chunk_basis_size);
+		# convert back to original (possibly shuffled) row numbers
+		chunk_basis_row_nums := chunk_row_nums[chunk_basis_idxs];
+		basis_row_nums := [op(basis_row_nums), op(chunk_basis_row_nums)];
+	end; # for each chunk
+
+	if shuffle_rows then
+		# return to original row numbers
+		basis_row_nums := shuffled_row_idxs[basis_row_nums];
+	end;
+
+	t1 := time[real]();
+
+	if self:-verbose and t1 - t0 &gt;= self:-min_report_time then
+		if num_chunks &gt; 1 then
+			printf(&quot;chose %d basis rows (in %d chunks) in %.1f seconds\134n&quot;, basis_size, num_chunks, t1 - t0);
+		else
+			printf(&quot;chose %d basis rows in %.1f seconds\134n&quot;, basis_size, t1 - t0);
+		end;
+	end;
+
+	SetBasis(self, basis_row_nums);
+
+	if randomizing then
+		# reset to original random seed
+		SetState(state=old_rand_seed);
+	end;
+
+	return NULL;
+end; # method ChooseBasisByDistance
+
+
+# choose basis_size number of rows from rows to act as a basis.  (see comments for ChooseBasisByDistance
+# for more details.)
+local ChooseBasisByDistanceSingleChunk::static := proc(self::DQC, rows, basis_size)
+	local num_rows, num_cols, first_basis_row_num, rowsc, basis_row_nums;
+
+	num_rows := Size(rows, 1);
+	num_cols := Size(rows, 2);
+
+	if basis_size &gt;= num_rows then
+		error &quot;desired basis size must be smaller than number of rows in chunk&quot;;
+	end;
+
+	if self:-basis_start_with_outlier then
+		# sentinel value, which tells compiled code to start with the largest outlier
+		first_basis_row_num := -1;
+	else
+		# choose random row number as the first basis row (note: we don't set the random seed here)
+		first_basis_row_num := RandomTools[Generate](posint(range=num_rows));
+	end;
+
+	if self:-call_c then
+		# note: ChooseBasisByDistanceC is *not* Maple-aware, so we pass things in C (row-major) order
+		rowsc := Matrix(rows, datatype=float[8], order=C_order);
+		basis_row_nums := Vector[row](basis_size, datatype=integer[4], order=C_order);
+		# subtract 1 from first_basis_row_num to convert from 1-based to 0-based indexing
+		ChooseBasisByDistanceC(rowsc, num_rows, num_cols, basis_size, basis_row_nums, first_basis_row_num - 1);
+
+		# convert results from 0-based back to 1-based indexing, and convert to list
+		basis_row_nums := convert(basis_row_nums +~ 1, list);
+	else
+		basis_row_nums := ChooseBasisByDistanceMaple(rows, basis_size, first_basis_row_num);
+	end;
+
+	return basis_row_nums;
+end; # method ChooseBasisByDistanceSingleChunk
+
+
+# build overlaps for the specified rows in the current basis.
+#   * if rows are passed in, we use them,
+#   * otherwise, if row_nums are passed in, we use those rows (without checking whether any of them are basis rows),
+#   * otherwise, we use all non-basis rows
+#
+# NOTE: if rows are passed in, they must be processed in the same way that self:-frames was processed in order to
+# be fully coherent -- passing raw-data rows into CreateFrame1 provides the required transformations.
+#
+# if sigma is not passed in, we use the stored value of sigma in the instance.
+#
+export BuildOverlaps::static := proc(self::DQC, rows_in:=[], row_nums_in:=[], sigma_in:=0, batch_size:=100e3)
+	local rows, num_cols, sigma, t0, t1, basis_rows, num_basis_rows, other_rows, num_other_rows;
+	local basis_rows_c, other_rows_c, overlaps_c, overlaps;
+	local num_batches, batch_idx, start_idx, end_idx, batch_overlaps;
+
+	if not type(self:-basis_rows, Matrix) then
+		error &quot;must have basis to build overlaps&quot;;
+	end;
+
+	# decide which rows to use
+	if rows_in = [] then
+		if row_nums_in = [] then
+			# use all non-basis rows
+			if self:-non_basis_row_nums = [] then
+				error &quot;using full basis -- no non-basis rows for which to build overlaps&quot;;
+			else
+				rows := copy(self:-frames[self:-non_basis_row_nums, .., 1]);
+			end;
+		else
+			# use specified rows
+			rows := copy(self:-frames[row_nums_in, .., 1]);
+		end; # if/else row nums passed in or not
+	else
+		rows := copy(rows_in);
+	end; # if/else rows passed in or not
+
+	num_cols := Size(self:-basis_rows, 2);
+	if Size(rows, 2) &lt;&gt; num_cols then
+		error &quot;rows must have the correct number of columns to build overlaps&quot;;
+	end;
+	rows := RemoveSingletonDimensions(rows);
+	if Dimension(Size(rows)) &gt; 2 then
+		error &quot;rows must be 2-D matrix or array&quot;;
+	end;
+
+	if not type(sigma_in, numeric) or sigma_in = 0 then
+		if self:-sigma = 0 then
+			error &quot;must have value of sigma to build overlaps&quot;;
+		else
+			sigma := self:-sigma;
+		end;
+	else
+		sigma := sigma_in;
+	end;
+
+	if sigma &lt;= 0 then
+		error &quot;must have positive value of sigma to build overlaps&quot;;
+	end;
+
+	t0 := time[real]();
+
+	basis_rows := copy(self:-basis_rows);
+	num_basis_rows := Size(basis_rows, 1);
+
+	other_rows := rows;
+	num_other_rows := Size(other_rows, 1);
+
+	# a very large number of rows (more than a few million) can cause an error (not sure why).
+	# so, we run in batches.
+	num_batches := ceil(num_other_rows / batch_size);
+
+	if num_batches = 1 then
+		if self:-call_c then
+			# note: BuildOverlapsC is *not* Maple-aware, so we pass things in C (row-major) order
+			basis_rows_c := Matrix(basis_rows, datatype=float[8], order=C_order);
+			other_rows_c := Matrix(other_rows, datatype=float[8], order=C_order);
+			overlaps_c := Vector(num_other_rows, datatype=float[8], order=C_order);
+			BuildOverlapsC(sigma, basis_rows_c, other_rows_c, num_basis_rows, num_other_rows, num_cols, overlaps_c);
+			overlaps := Vector(overlaps_c, datatype=float[8], order=Fortran_order);
+		else
+			overlaps := BuildOverlapsMaple(sigma, basis_rows, other_rows);
+		end;
+	else
+		# run batches
+		overlaps := Vector(num_other_rows, datatype=float[8]);
+		for batch_idx from 1 to num_batches do
+			start_idx := batch_size * (batch_idx - 1) + 1;
+			end_idx := min(num_other_rows, batch_size * batch_idx);
+			batch_overlaps := BuildOverlaps(self, other_rows[start_idx..end_idx, ..], [], sigma, batch_size);
+			overlaps[start_idx..end_idx] := batch_overlaps;
+		end; # for each batch
+	end; # if/else multiple batches or not
+
+	t1 := time[real]();
+	if self:-verbose and t1 - t0 &gt;= self:-min_report_time then
+		printf(&quot;built %d overlaps in %.1f seconds\134n&quot;, num_other_rows, t1 - t0);
+	end;
+
+	return overlaps;
+end; # method BuildOverlaps
+
+
+# choose the smallest value of sigma that meets the instance's overlap-threshold requirements
+# (overlap_min_threshold and overlap_mean_threshold) for non-basis rows.
+#
+# self must already have frame 1 and a selected basis.
+#
+# logic:
+#   * using rand_seed, shuffle all non-basis rows into a random order
+#   * if batch_size is 0, pass all non-basis rows to ChooseSigmaForRows in a single batch
+#   * if batch_size is &gt; 0, call ChooseSigmaForRows 1 batch at a time, continuing as long as
+#     the returned value of sigma is the same for every batch.  when a mismatch occurs, increase the
+#     batch size by 25% and start over.
+#   * when num_batches_to_test batches all return the same value of sigma, we have our final selected value.
+#
+# we set self:-sigma to the final resulting value of sigma.
+#
+# inputs:
+#   * batch_size: number of rows in a single batch.  if 0, pass all non-basis rows at once
+#     to ChooseSigmaForRows.  default 0.
+#   * num_batches_to_test: number of batches that must return the same value of sigma before
+#     we're done.  ignored if batch_size is 0.  default 10.
+#   * rand_seed: random seed -- determines the random shuffled order of non-basis row numbers.
+#     default 11.
+export ChooseSigmaForBasis::static := proc(self::DQC, batch_size_in:=0, num_batches_to_test:=10, rand_seed:=11)
+	local old_rand_seed, num_rows, shuffled_row_nums, batch_size, verbose, finished, num_batches, mismatch, sigma;
+	local batch_idx, start_row_idx, end_row_idx, batch_row_nums, batch_sigma;
+
+	if not type(self:-basis_rows, Matrix) or not type(self:-frames, Array) or self:-non_basis_row_nums = [] then
+		error &quot;must have some non-basis rows to choose sigma for basis&quot;;
+	end;
+
+	batch_size := batch_size_in;
+
+	if batch_size = 0 then
+		# if no batch size given, test all non-basis rows at once
+		self:-sigma := ChooseSigmaForRows(self, self:-non_basis_row_nums);
+		return NULL;
+	end; # if no batch size (testing all non-basis rows at once)
+
+	# get current random seed (for resetting at the end) and set random seed
+	old_rand_seed := GetState():
+	SetState(state=rand_seed);
+
+	# shuffle all non-basis row numbers
+	num_rows := nops(self:-non_basis_row_nums);
+	shuffled_row_nums := self:-non_basis_row_nums[randperm(num_rows)];
+
+	# suppress output from subfunctions (things get a little too verbose otherwise...)
+	verbose := self:-verbose;
+	self:-verbose := false;
+
+	finished := false;
+	while not finished do
+		num_batches := ceil(num_rows / batch_size);
+		num_batches := min(num_batches_to_test, num_batches);
+		mismatch := false;
+		sigma := 0;
+
+		if verbose then
+			printf(&quot;##### to choose sigma, testing %d batches (batch size %d) #####\134n&quot;, num_batches, batch_size);
+		end;
+
+		for batch_idx from 1 to num_batches do
+			start_row_idx := batch_size * (batch_idx - 1) + 1;
+			end_row_idx := min(num_rows, batch_size * batch_idx);
+			batch_row_nums := shuffled_row_nums[start_row_idx..end_row_idx];
+		     batch_sigma := ChooseSigmaForRows(self, batch_row_nums);
+			if verbose then
+				printf(&quot;batch %d: sigma is %.4f\134n&quot;, batch_idx, batch_sigma);
+			end;
+			if sigma = 0 then:
+				sigma := batch_sigma;
+			else:
+				if sigma &lt;&gt; batch_sigma then
+              			if verbose then
+                  			printf(&quot;sigma values don't agree -- increasing batch size...\134n&quot;);
+                  		end;
+              			mismatch := true;
+              			batch_size := round(batch_size * 1.25);
+              			break;
+              		end; # if sigma &lt;&gt; batch_sigma
+ 			end; # if/else first batch or not
+		end; # for each test batch
+
+		finished := evalb(not mismatch);
+	end; # while not finished
+
+	if verbose then
+		printf(&quot;final sigma is %.4f\134n&quot;, sigma);
+	end;
+
+	# restore original verbosity setting
+	self:-verbose := verbose;
+
+	self:-sigma := sigma;
+
+	# reset to original random seed
+	SetState(state=old_rand_seed);
+
+	return NULL;
+end; # method ChooseSigmaForBasis
+
+
+# for the given row_nums, use a binary search to find the smallest value of sigma that meets
+# overlap-threshold requirements (self.overlap_min_threshold and self.overlap_mean_threshold).
+#
+# self must already have frame 1 and a selected basis.
+#
+# we determine precision of the search as follows:
+#   * estimate mean distance between rows (using EstimateMeanRowDistance)
+#   * set precision at least 2 orders of magnitude below the mean distance:
+#     precision := 10 ** (floor(log10(mean_distance)) - 2)
+#     for example, if mean distance is 20, precision will be 0.1.
+#   * precision determines the smallest allowed step from one value of sigma to the next.
+#
+# the first search value for sigma is 10 * precision.  if that first value of sigma is good, we divide
+# sigma by 2 until we find a bad value. (if the largest bad value of sigma is below the current
+# precision level, we increase precision as needed.). if that first value of sigma is bad, we multiply
+# sigma by 2 until we find a good value.  either way, we then proceed by binary search, until we have
+# a bad value and a good value within one precision step of each other.  the larger, good, value is the
+# final selected value of sigma.
+#
+# inputs
+#   * row_nums: list/array of row numbers to use for testing overlaps (must not include any basis
+#     row numbers).
+#
+# output:
+#   * final value of sigma
+export ChooseSigmaForRows::static := proc(self::DQC, row_nums)
+	local basis_row_nums, rows, precision, eps, min_precision, sigma, sigma_range, done_searching;
+	local overlaps, min_overlap, mean_overlap, sigma_is_good, good_str, doing_binary_search;
+
+	# verify that row_nums contains no basis row numbers
+	basis_row_nums := convert(convert(self:-basis_row_nums, set) intersect convert(row_nums, set), list);
+	if nops(basis_row_nums) &gt; 0 then
+		error &quot;must not use any basis row numbers when choosing sigma for rows&quot;;
+	end;
+
+	rows := Float8Matrix(self:-frames[row_nums, .., 1]);
+
+	if self:-mean_row_distance = 0 then
+		EstimateMeanRowDistance(self);
+	end;
+	# precision is at least 2 orders of magnitude below mean distance
+	precision := 10 ^ (floor(log10(self:-mean_row_distance)) - 2);
+
+	# use 'epsilon' to avoid machine-precision issues in comparisons
+	eps := precision / 1e4;
+
+	# don't allow precision to shrink more than another 3 orders of magnitude (so, still 10 times
+	# bigger than epsilon)
+	min_precision := (precision / 1e3);
+
+	# starting value of sigma
+	sigma := 10 * precision;
+
+	# do binary search within this range, once both of these values are non-zero
+	sigma_range := [0, 0];
+
+	if self:-verbose then
+		printf(&quot;choosing sigma to precision of %.1e for basis of size %d...\134n&quot;, precision, Size(self:-basis_rows, 1));
+	end;
+
+	done_searching := false;
+	while not done_searching do
+		# test current value of sigma
+		overlaps := BuildOverlaps(self, rows, [], sigma);
+		min_overlap := min(overlaps):
+		mean_overlap := Mean(overlaps);
+		sigma_is_good := evalb(min_overlap &gt;= self:-overlap_min_threshold and mean_overlap &gt;= self:-overlap_mean_threshold);
+		if sigma_is_good then
+			good_str := &quot; (GOOD)&quot;;
+		else
+			good_str := &quot;&quot;;
+		end;
+		if self:-verbose then
+			printf(&quot;for sigma = %.4f: min overlap %.3f, mean overlap %.3f%s\134n&quot;, sigma, min_overlap, mean_overlap, good_str);
+		end;
+
+		if sigma_is_good then
+			# search for smaller sigma (so, current sigma now defines the top of the search range)
+			sigma_range[2] := sigma;
+			doing_binary_search := evalb(sigma_range[1] &gt; 0);
+			if not doing_binary_search then
+				# if we're at minimum sigma for current precision, we need to increase precision
+				if sigma &lt; precision + eps then
+					precision := precision / 10;
+					if precision &lt; min_precision - eps then
+						error &quot;precision must not go below %1&quot;, min_precision;
+					end;
+					if self:-verbose then
+						printf(&quot;increasing precision to %.1e...\134n&quot;, precision);
+					end;
+				end; # if increasing precision
+				sigma := round((sigma / 2) / precision) * precision;  # search for smaller sigma
+				if sigma &lt;= 0 then
+					error &quot;sigma must always be positive&quot;;
+				end;
+			end; # if not doing binary search
+		else
+			# search for larger sigma (so, current sigma now defines the bottom of the search range)
+			sigma_range[1] := sigma;
+			doing_binary_search := evalb(sigma_range[2] &gt; 0);
+		     if not doing_binary_search then
+				sigma := round(sigma * 2 / precision) * precision; # search for larger sigma
+			end; # if not doing binary search
+		end; # if/else searching for smaller or larger sigma
+
+		if doing_binary_search then
+			sigma := round(Mean(sigma_range) / precision) * precision;
+			if sigma &lt;= 0 then
+				error &quot;sigma must always be positive&quot;;
+			end;
+      	end;
+
+		# to be done, top and bottom of search range must both be positive, and search range must be
+		# at or below current precision
+		done_searching := evalb(sigma_range[1] &gt; 0 and sigma_range[2] &gt; 0 and sigma_range[2] - sigma_range[1] &lt; precision + eps);
+	end; # while not done searching
+
+	sigma := sigma_range[2];
+	if self:-verbose then
+		printf(&quot;final sigma is %.4f\134n&quot;, sigma);
+	end;
+
+	return evalf(sigma);
+end; # method ChooseSigmaForRows
+
+
+# for the given set of frames, return a list of row numbers for rows that have stopped (according to
+# self:-stopping_threshold).
+#
+# we return a list of stopped row numbers.
+export StoppedRowNums::static := proc(self::DQC, frames:=[])
+	local last_deltas, num_rows, dists, row_idx, stopped_row_nums;
+
+	if frames = [] then
+		if not type(self:-frames, Array) then
+			error &quot;must have frames in order to determine stopped row numbers&quot;;
+		end;
+		return StoppedRowNums(self, self:-frames);
+	end;
+
+	if Dimension(Size(frames)) &lt; 3 or Size(frames, 3) &lt;= 1 or self:-stopping_threshold &lt;= 0 then
+		return [];
+	end;
+
+	last_deltas := Float8Matrix(frames(.., .., -1) - frames(.., .., -2));
+	num_rows := Size(frames, 1);
+	dists := Vector(num_rows, datatype=float[8]);
+	for row_idx from 1 to num_rows do
+		dists[row_idx] := Norm(last_deltas[row_idx, ..], 2);
+	end;
+	stopped_row_nums := select(i -&gt; dists[i] &lt; self:-stopping_threshold, [$1..num_rows]);
+
+	return stopped_row_nums;
+end; # method StoppedRowNums
+
+
+# set stopping threshold to be one-millionth of mean row distance.  (we call EstimateMeanRowDistance if needed.)
+export SetStoppingThreshold::static := proc(self::DQC)
+	if self:-mean_row_distance = 0 then
+		EstimateMeanRowDistance(self);
+	end;
+     self:-stopping_threshold := self:-mean_row_distance / 1e6;
+	if self:-verbose then
+		printf(&quot;set stopping threshold to %.2e\134n&quot;, self:-stopping_threshold);
+	end;
+
+	return NULL;
+end; # method SetStoppingThreshold
+
+
+# build and store the DQC operators
+#   * simt: transpose of 'similarity' matrix, which converts things from 'raw' basis of basis rows
+#     to orthonormal basis of eigenstates
+#       - dimensions: &lt;num_basis_vecs x num_basis_rows&gt;
+#   * xops: 1-D array of 2-D matrices, where matrix i is the position-expectation operator matrix for data
+#     dimension i
+#       - dimensions of each matrix: &lt;num_basis_vecs x num_basis_vecs&gt;
+#   * exph: complex matrix that is the Hamiltonian time-evolution exponentiation operator.
+#       - dimensions: &lt;num_basis_vecs x num_basis_vecs&gt;
+#
+# NOTES:
+#   * if basis has not been set, we use all rows as the basis by default.
+#   * the relative order of the basis rows is baked into the operators, so the relative
+#     ordering of the basis rows must not change later.  (2FIX: THIS IS STILL A FRAGILE SETUP)
+#   * num_basis_vecs (the number of orthogonal basis eigenstates) may be smaller than num_basis_rows.
+#
+# inputs:
+#   * n_potential: use this number of rows to use to build the potential, starting from the first row.
+#     if 0, we use all rows.  (mainly for debugging and speed testing.)  default 0.
+export BuildOperators::static := proc(self::DQC, n_potential_in:=0)
+	local num_rows, num_basis_rows, n_potential, shuffled_row_nums, mat, new_ham_int, t0, t1;
+	local simt, xops, exph;
+
+	if not type(self:-frames, Array) then
+		error &quot;must have frame 1 to build operators&quot;;
+	end;
+
+	if Size(self:-frames, 3) &gt; 1 then
+		error &quot;must not already have multiple frames when building operators (use ClearFrames to clear frames)&quot;;
+	end;
+
+	if self:-sigma &lt;= 0 or self:-step &lt;= 0 or self:-mass &lt;= 0 then
+		error &quot;must have positive values for sigma, step, and mass to build operators&quot;;
+	end;
+
+	if not type(self:-basis_rows, Matrix) then
+		SetBasis(self); # use full basis by default
+	end;
+
+	num_rows := Size(self:-frames, 1);
+	num_basis_rows := Size(self:-basis_rows, 1);
+
+	n_potential := n_potential_in;
+	if n_potential = 0 then
+		n_potential := num_rows; # use all rows to build the potential
+	end;
+
+	if self:-verbose then
+		printf(&quot;building operators for %d basis rows and %d potential rows...\134n&quot;, num_basis_rows, n_potential);
+	end;
+
+	if num_basis_rows &lt; num_rows then
+		# MakeOperatorsC expects the basis rows to be first in the matrix of rows, so reorder the rows
+		shuffled_row_nums := [op(self:-basis_row_nums), op(self:-non_basis_row_nums)];
+		mat := self:-frames[shuffled_row_nums, .., 1];
+	else
+		mat := self:-frames[.., .., 1];
+	end;
+	mat := Float8Matrix(mat);
+
+	t0 := time[real]();
+
+	if self:-call_c then
+		# passing a boolean to C is evidently tricky -- do an end-run with a 1/0 integer instead
+		if self:-new_ham then
+			new_ham_int := 1;
+		else
+			new_ham_int := 0;
+		end;		
+		#  * note: MakeOperatorsC *is* Maple-aware, so we don't need to convert mat to C (row-major) order
+		exph, xops, simt := MakeOperatorsC(mat, num_basis_rows, n_potential,
+										self:-sigma, self:-step, self:-mass, new_ham_int);
+	else
+		exph, xops, simt := MakeOperatorsMaple(mat, num_basis_rows, n_potential,
+										self:-sigma, self:-step, self:-mass, self:-new_ham);
+	end; # if/else calling C or not
+
+	t1 := time[real]();
+	if self:-verbose and t1 - t0 &gt;= self:-min_report_time then
+     	printf(&quot;built operators in %.1f seconds\134n&quot;, t1 - t0);
+	end;
+
+	self:-simt := simt;
+	self:-xops := xops;
+	self:-exph := exph;
+
+	return NULL;
+end; # method BuildOperators
+
+
+# keep frame 1 (if it exists) and clear all frames after frame 1.
+#
+# if self:-frames is empty ([]), do nothing.
+export ClearFrames::static := proc(self::DQC)
+
+	if not type(self:-frames, Array) then
+		if self:-verbose then
+			printf(&quot;'frames' is not an array -- no frames to clear\134n&quot;);
+		end;
+	else
+		# 'reset' to frame 1
+		self:-frames := self:-frames(.., .., 1..1); # keep it 3-D
+	end;
+
+	return NULL;
+end; # method ClearFrames
+
+
+# build new frames of a DQC evolution.
+#
+# self must have basis rows, operators, and positive sigma (which, of course, should be the same value of sigma
+# that was used to build the operators).
+#
+# if frames are not passed in, we use self:-frames from the instance
+#
+# we only use the last 2 frames (at most):
+#   * we use the last 2 frames to test whether any rows have already stopped.  (if there aren't 2 frames,
+#     then no rows have stopped yet.)
+#   * we use the last frame to build the first new frame.
+#
+# if frames are passed in, we return all frames (old and new together).  otherwise, we set
+# self:-frames to be all frames (old and new together) and return NULL.
+#
+# notes on self.stopping_threshold:
+#   * during DQC evolution, a row is considered to have stopped when the distance traveled from one frame
+#     to the next falls below this threshold.  the default stopping threshold is self:-mean_row_distance / 1e6
+#     (see SetStoppingThreshold).  set stopping_threshold to zero to evolve all points for all new frames
+#     being built.  (note: a negative value will trigger a call to SetStoppingThreshold.)
+#   * if all points have already stopped, then we don't build any new frames.  (in that case, if frames are
+#     being returned, a reference to the frames passed in is returned.)
+#
+# inputs
+#   * num_frames_to_build: number of new frames to build
+#   * frames: 3-D array of frames.  if empty ([]), we use self:-frames.  default [].
+#       NOTES:
+#         - we only pass the last frame to the C code (the basis rows from the actual frame 1 are passed separately),
+#           so here you can pass in either all current frames or just the last current frame -- the new frames will
+#           be the same either way.
+#         - since the basis rows are passed in separately, the basis rows can also be present in these frames or not,
+#           depending purely on whether you want to evolve them.
+#   * pare_frames: boolean -- whether to drop any final frames where everything has stopped moving.  default true.
+#
+# output:
+#   * if frames were passed in, we return all frames (old and new together).  otherwise, we return NULL.
+export BuildFrames::static := proc(self::DQC, num_frames_to_build:=10, frames:=[], pare_frames:=true)
+	local num_rows, num_cols, stopped_row_nums, evolving_row_nums, num_evolving_rows, have_stopped_rows;
+	local current_frame, t0, t1, rescale_int, frames_out, new_frames;
+
+	if not type(frames, Array) then
+		if not type(self:-frames, Array) then
+			error &quot;must have at least frame 1 to build new frames&quot;;
+		end;
+		self:-frames := BuildFrames(self, num_frames_to_build, self:-frames, pare_frames);
+		return NULL;
+	end; # if using self:-frames
+
+	if num_frames_to_build &lt;= 0 then
+		error &quot;num_frames_to_build must be positive&quot;;
+	end;
+
+	if self:-sigma &lt;= 0 then
+		error &quot;must have positive sigma to build frames&quot;;
+	end;
+
+	if not type(self:-basis_rows, Matrix) then
+		error &quot;must have basis rows to build frames&quot;;
+	end;
+
+	if not type(self:-simt, Matrix) or not type(self:-xops, Array) or not type(self:-exph, Matrix) then
+		error &quot;must have operators to build frames&quot;;
+	end;
+
+	num_rows := Size(frames, 1);
+	num_cols := Size(frames, 2);
+
+     if num_cols &lt;&gt; Size(self:-basis_rows, 2) then
+		error &quot;frames must have correct number of columns&quot;;
+     end;
+
+	current_frame := copy(Float8Matrix(frames(.., .., -1)));
+
+	if self:-stopping_threshold &lt; 0 then
+		SetStoppingThreshold(self);
+	end;
+
+	# deal with stopped rows
+	stopped_row_nums := StoppedRowNums(self, frames);
+	evolving_row_nums := convert(convert([$1..num_rows], set) minus convert(stopped_row_nums, set), list);
+	num_evolving_rows := nops(evolving_row_nums);
+	if num_evolving_rows = 0 then
+		if self:-verbose then
+			printf(&quot;all rows have stopped -- no frames added\134n&quot;);
+		end;
+		if pare_frames then
+			frames := PareFrames(frames, self:-verbose);
+		end;
+		return frames;
+	end; # if all rows stopped
+
+	have_stopped_rows := evalb(nops(stopped_row_nums) &gt; 0);
+	if have_stopped_rows then
+		current_frame := current_frame[evolving_row_nums, ..];
+	end;
+
+	t0 := time[real]();
+
+	if self:-call_c then
+		# passing a boolean to C is evidently tricky -- do an end-run with a 1/0 integer instead
+		if self:-rescale then
+			rescale_int := 1;
+		else
+			rescale_int := 0;
+		end;
+
+		# notes for BuildFramesAutoC
+		#   * we're only passing the latest/current frame to the C code, and that frame is included in frames_out
+		#   * BuildFramesAutoC *is* Maple-aware, so we don't need to convert things to C (row-major) order
+		frames_out := BuildFramesAutoC(num_frames_to_build, current_frame, self:-basis_rows, self:-exph, self:-xops, self:-simt,
+									self:-sigma, self:-stopping_threshold, rescale_int);
+	else
+		# call the Maple-only version
+		frames_out := BuildFramesMaple(num_frames_to_build, current_frame, self:-basis_rows, self:-simt, self:-xops, self:-exph,
+									self:-sigma, self:-stopping_threshold, self:-rescale);
+	end; # if/else calling C or Maple
+
+	if Size(frames_out, 3) &lt;&gt; num_frames_to_build + 1 then
+		error &quot;must have add num_frames_to_build frames&quot;;
+	end if;
+
+	t1 := time[real]();
+	if self:-verbose and t1 - t0 &gt;= self:-min_report_time then
+		printf(&quot;built %d frames in %.1f seconds\134n&quot;, num_frames_to_build, t1 - t0);
+	end;
+	frames_out := frames_out(.., .., 2..-1); # drop first output frame, which is current_frame
+
+	# be careful not to duplicate current_frame in final output (it's included in frames_out)
+	if have_stopped_rows then
+		# fill stopped rows forward
+		new_frames := Replicate(frames(.., .., -1), 1, 1, num_frames_to_build);
+		# overwrite where we have new data for evolving rows
+		new_frames(evolving_row_nums, .., ..) := frames_out;
+	else
+		new_frames := frames_out;
+	end if; # found any stopped rows or not before calling C code
+
+	frames_out := Concatenate(3, frames, new_frames);
+
+	if pare_frames then
+		frames_out := PareFrames(frames_out, self:-verbose);
+	end;
+
+	return frames_out;
+end; # method BuildFrames
+
+
+# add new frames in batches until all rows have stopped.
+#
+# if frames are passed in, we return all frames (old and new together).  otherwise, we set
+# self:-frames to be all frames (old and new together) and return NULL.
+#
+# inputs:
+#   * batch_size: number of new frames to add in each batch.  default 10.
+#   * frames: 3-D array of frames.  if empty ([]), we use self:-frames.  default [].
+#   * pare_frames: boolean -- whether to drop any final frames where everything has stopped moving.  default true.
+#   * max_num_frames: maximum number of frames to build (backstopping any weird behavior that might lead to an infinite
+#     loop).  default 1e4.
+# output
+#    * if frames are passed in, we return all frames (old and new together).  otherwise, we return NULL.
+export BuildFramesAuto::static := proc(self::DQC, batch_size:=10, frames_in:=[], pare_frames:=true, max_num_frames:=round(5e3))
+	local num_frames_start, verbose, t0, t1, num_frames1, num_frames2, frames, num_frames_end;
+
+	frames := frames_in;
+
+	if not type(frames, Array) then
+		if not type(self:-frames, Array) then
+			error &quot;must have at least frame 1 to build new frames&quot;;
+		end;
+		self:-frames := BuildFramesAuto(self, batch_size, self:-frames, pare_frames, max_num_frames);
+		return NULL;
+	end; # if using self:-frames
+
+	if self:-sigma &lt;= 0 then
+		error &quot;must have positive sigma to build frames&quot;;
+	end;
+
+	if self:-stopping_threshold = 0 then
+		error &quot;must have positive stopping threshold to avoid infinite loop&quot;;
+	elif self:-stopping_threshold &lt; 0 then
+		# negative value is a sentinel value, set in constructor, meaning &quot;not set yet&quot;
+		SetStoppingThreshold(self);
+	end;
+
+	if self:-stopping_threshold &lt; 1e-10 * self:-sigma then
+		error &quot;stopping_threshold must be &gt;= 1e-10 * sigma (to prevent BuildFramesAuto from running forever)&quot;;
+	end;
+
+	num_frames_start := Size(frames, 3);
+
+	# suppress output from BuildFrames inside the loop
+	verbose := self:-verbose;
+	self:-verbose := false;
+
+	t0 := time[real]();
+
+	num_frames1 := -1;
+	num_frames2 := 0;
+	while num_frames2 &gt; num_frames1 do
+		if verbose then
+			printf(&quot;adding %d frames...\134n&quot;, batch_size);
+		end:
+		num_frames1 := Size(frames, 3);
+		frames := BuildFrames(self, batch_size, frames, false); # false = do not pare frames
+		num_frames2 := Size(frames, 3);
+		if num_frames2 &gt;= max_num_frames then
+			printf(&quot;##### WARNING: have reached or exceeded max num frames of %d (current num frames is %d)\134n&quot;, max_num_frames, num_frames2);
+			break;
+		end;
+	end; # while still adding frames
+
+	if pare_frames then
+		frames := PareFrames(frames, verbose);
+	end;
+
+	t1 := time[real]();
+
+	if verbose then
+		num_frames_end := num_frames2;
+		printf(&quot;added a total of %d frames in %.1f seconds\134n&quot;, num_frames_end - num_frames_start, t1 - t0);
+	end;
+
+	self:-verbose := verbose;
+
+	return frames;
+end; # method BuildFramesAuto
+
+
+# given a matrix:
+#   * center the columns, using the 'in-sample' column means in self:-raw_col_means
+#   * create a rotated and truncated matrix by applying the rotation/projection defined by the combination of self:-pca_eigvecs
+#     and self:-pca_num_dims.
+#   * calculate the proportional norms for each row -- meaning, the rotated/truncated L2 norm divided by the original L2 norm (after
+#     column-centering)
+#
+# inputs:
+#   dat_raw: raw-data matrix (any type convertible to a float matrix).  if empty ([]), we use self:-raw_data.  default [].
+# outputs:
+#   norm_props: vector of proportional norms (truncated / original) for each row.
+export PCAProjection::static := proc(self::DQC, dat_raw_in::rtable:=[])
+	local dat_raw, t0, t1, dat_centered, col_means_out, norms_orig, pca_eigvecs, pca_eigvecs_trunc;
+	local dat_rotated, norms_rotated, norm_props, dat_rotated_full, norms_rotated_full, norm_props_full;
+
+	dat_raw := dat_raw_in;
+	if dat_raw = [] then
+		dat_raw := self:-raw_data;
+	end;
+	dat_raw := Float8Matrix(dat_raw);
+
+	if not type(self:-raw_col_means, Vector) or not type(self:-pca_eigvecs, Matrix) or self:-pca_num_dims = 0 then
+		error &quot;must have PCA results to do PCA projection&quot;;
+	end;
+
+	if Dimension(self:-raw_col_means) &lt;&gt; Size(dat_raw, 2) then
+		error &quot;'dat_raw' must have correct number of columns&quot;;
+	end;
+
+	t0 := time[real]();
+
+	dat_centered, col_means_out := CenterColumns(dat_raw, self:-raw_col_means);
+
+	# get original row norms (after centering)
+	norms_orig := GetRowNorms(dat_centered);
+
+	# get truncated PCA eigenvectors
+	pca_eigvecs := self:-pca_eigvecs;
+	pca_eigvecs_trunc := pca_eigvecs[.., 1..self:-pca_num_dims];
+
+	# get rotated/truncated row norms
+	dat_rotated := dat_centered.pca_eigvecs_trunc;
+	norms_rotated := GetRowNorms(dat_rotated);
+
+	norm_props := norms_rotated /~ norms_orig;
+
+	### error check: there should be no loss of information in the 'full' rotataion (with no subspace truncation/projection)
+	#
+	# NOTE: this isn't always true.  if the number of points/rows is less then the number of raw dimensions when PCA is first
+	# run -- for example, if there are 20 point in 30 raw dimensions -- then there will only be 20 PCA dimensions in total.
+	# these 20 PCA dimensions are enough to fully describe the first 20 points, but they are not enough to fully describe
+	# any arbitrary new point in the 30 raw dimensions -- that would, of course, require 30 dimensions.
+	#
+	dat_rotated_full := dat_centered.pca_eigvecs;
+	norms_rotated_full := GetRowNorms(dat_rotated_full);
+	norm_props_full := norms_rotated_full /~ norms_orig;
+	if self:-verbose and min(norm_props_full) &lt; 0.999 then
+		printf(&quot;WARNING: minimum norm proportion in full PCA rotation (with no subspace projection) is %.4f\134n&quot;,
+				min(norm_props_full));
+	end;
+
+	t1 := time[real]();
+	if self:-verbose and t1 - t0 &gt;= self:-min_report_time then
+		printf(&quot;calculated PCA-projection proportions in %.1f seconds\134n&quot;, t1 - t0);
+	end;
+
+	return norm_props;
+end; # function PCAProjection
+
+
+# run a basic analysis of new 'out-of-sample' rows:
+#   * do preprocessing of the raw data, according to the instance's parameter settings: PCA, dummy column, and/or rescaling
+#   * if using PCA, report on PCA subspace-projection proportions
+#   * build basis overlaps
+#   * evolve out-of-sample rows (to as many frames as currently exist in self:-frames)
+# inputs
+#   self: DQC instance
+#   dat_raw_oos_in: out-of-sample rows (any type convertible to a float matrix)
+# outputs
+#   norm_props_is: vector of in-sample proportional norms (rotated/truncated L2 norms divided by original L2 norms)
+#   norm_props_oos: vector of out-of-sample proportional norms (rotated/truncated L2 norms divided by original L2 norms)
+#   overlaps_is: vector of in-sample basis overlaps (for all non-basis rows)
+#   overlaps_oos: vector of out-of-sample basis overlaps
+#   frames_oos: array of out-of-sample evolved frames
+export RunNewPoints::static := proc(self::DQC, dat_raw_oos_in::rtable)
+	local dat_raw_oos, num_oos_rows, num_oos_cols, norm_props_is, norm_props_oos, frame1_oos;
+	local p1, p2, dscrt, using_full_basis, overlaps_is, overlaps_oos, num_frames_to_build, frames_oos;
+
+	dat_raw_oos := Float8Matrix(dat_raw_oos_in);
+
+	num_oos_rows := Size(dat_raw_oos, 1);
+	num_oos_cols := Size(dat_raw_oos, 2);
+
+	if self:-pca_transform then
+		if not type(self:-raw_col_means, Vector) then
+			error &quot;must have raw column means to run new points&quot;;
+		end;
+		if num_oos_cols &lt;&gt; Dimension(self:-raw_col_means) then
+			error &quot;new points must have correct number of columns&quot;;
+		end;
+
+		# do PCA projection for in-sample points and out-of-sample points
+		# NOTE: we use in-sample PCA results for both (column means, PCA eigenvectors, and number of dimensions for subspace projection)
+		norm_props_is := PCAProjection(self);
+		norm_props_oos := PCAProjection(self, dat_raw_oos);
+
+		if self:-verbose then
+
+			dscrt := evalb(min(norm_props_is) = max(norm_props_is));
+			p1 := Histogram(norm_props_is, frequencyscale=absolute, bincount=100,
+						title=&quot;In-Sample Proportion of L2 Norms for PCA Subspace Projection&quot;, discrete=dscrt,
+						labels=[&quot;subspace norm as proportion of original norm&quot;, &quot;count&quot;], labeldirections=[horizontal, vertical]);
+
+			dscrt := evalb(min(norm_props_oos) = max(norm_props_oos));
+			p2 := Histogram(norm_props_oos, frequencyscale=absolute, bincount=100, discrete=dscrt,
+						title=&quot;Out-of-Sample Proportion of L2 Norms for PCA Subspace Projection&quot;,
+						labels=[&quot;subspace norm as proportion of original norm&quot;, &quot;count&quot;], labeldirections=[horizontal, vertical]);
+			print(display(&lt;p1 | p2&gt;));
+		end;
+	else
+		norm_props_is := Vector();
+		norm_props_oos := Vector();
+	end; # if calculating PCA-subspace projection proportions or not
+
+	if self:-verbose then
+		print();
+	end;
+
+	frame1_oos := CreateFrame1(self, dat_raw_oos);
+
+	# build in-sample and out-of-sample basis overlaps
+	if not type(self:-basis_rows, Matrix) then
+		error &quot;must have basis set to run new points&quot;;
+	end;
+	if not type(self:-frames, Array) then
+		error &quot;must have self:-frames (at least frame 1) to run new points&quot;;
+	end;
+	using_full_basis := evalb(Size(self:-basis_rows, 1) = Size(self:-frames, 1));
+	if using_full_basis then
+		overlaps_is := Vector(); # ;
+	else
+		overlaps_is := BuildOverlaps(self);
+	end;
+	overlaps_oos := BuildOverlaps(self, frame1_oos);
+
+	if self:-verbose then
+		if using_full_basis then
+			printf(&quot;Note: full basis, no in-sample non-basis rows to evaluate -- all in-sample overlaps are 1\134n&quot;);
+			p1 := Histogram(Vector(Size(self:-frames, 1), i -&gt; 1), frequencyscale=absolute, discrete=true,
+						title=&quot;Basis Overlaps for In-Sample Non-Basis Rows&quot;,
+						labels=[&quot;basis overlap&quot;, &quot;count&quot;], labeldirections=[horizontal, vertical]);			
+		else
+			dscrt := evalb(min(overlaps_is) = max(overlaps_is));
+			p1 := Histogram(overlaps_is, frequencyscale=absolute, bincount=100, discrete=dscrt,
+						title=&quot;Basis Overlaps for In-Sample Non-Basis Rows&quot;,
+						labels=[&quot;basis overlap&quot;, &quot;count&quot;], labeldirections=[horizontal, vertical]);			
+		end;
+
+		dscrt := evalb(min(overlaps_oos) = max(overlaps_oos));
+		p2 := Histogram(overlaps_oos, frequencyscale=absolute, bincount=100, discrete=dscrt,
+						title=&quot;Basis Overlaps for Out-of-Sample Rows&quot;,
+						labels=[&quot;basis overlap&quot;, &quot;count&quot;], labeldirections=[horizontal, vertical]);
+
+		print(display(&lt;p1 | p2&gt;));
+	end;
+
+	if self:-verbose then
+		print();
+	end;
+
+	# run DQC evolution of out-of-sample points (using in-sample operators and parameter values)
+	num_frames_to_build := Size(self:-frames, 3) - 1;
+	frames_oos := BuildFrames(self, num_frames_to_build, frame1_oos);
+
+	return norm_props_is, norm_props_oos, overlaps_is, overlaps_oos, frames_oos;
+end; # method RunNewPoints
+
+
+
+
+
+end; # class module DQC
+
+
+end: # package module CoreDQC
+
+</EC-CodeEditor></CodeEditor-ExecGroup>
+<Group labelreference="L139" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L138" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L49" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelib('CoreDQC', JoinPath([currentdir(), &quot;CoreDQC.mla&quot;])):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L83" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L133" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L145" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>

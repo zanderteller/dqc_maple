@@ -1,0 +1,12 @@
+# macOS metadata
+.DS_Store
+
+# build outputs
+cpp/build/
+
+# intermediate object files
+cpp/**/shared/
+*.o
+
+# Visual Studio scratch
+.vs/
