@@ -135,7 +135,7 @@ local ModuleLoad := proc()
 		error &quot;DQC module can only load dynamic library for Windows and Apple OS -- not yet supported for OS '%1'&quot;, kernelopts(system);
 	end if; # OS is Windows, Apple, or other
 
-	lib_path := JoinPath([kernelopts(homedir), &quot;maple&quot;, &quot;toolbox&quot;, &quot;CoreDQC&quot;, &quot;bin&quot;, sprintf(&quot;dqc_maple.%s&quot;, lib_ext)]);
+	lib_path := FileTools:-JoinPath([kernelopts(homedir), &quot;maple&quot;, &quot;toolbox&quot;, &quot;CoreDQC&quot;, &quot;bin&quot;, sprintf(&quot;dqc_maple.%s&quot;, lib_ext)]);
 
 	# define the external functions
 	L2NormRowsC := define_external('L2NormRowsC', 'LIB'=lib_path, 'mat'::ARRAY(float[8]), 'num_rows'::integer[4], 'num_cols'::integer[4],
@@ -2621,7 +2621,7 @@ end: # package module CoreDQC
 </Input>
 </Group>
 <Group labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelib('CoreDQC', JoinPath([currentdir(), &quot;CoreDQC.mla&quot;])):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelib('CoreDQC', FileTools:-JoinPath([currentdir(), &quot;CoreDQC.mla&quot;])):</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
