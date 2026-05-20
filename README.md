@@ -26,7 +26,7 @@ Then open `~/maple/toolbox/CoreDQC/lib/CoreDQC.mw` in Maple and evaluate the wor
 
 ```maple
 with(CoreDQC):
-SecondaryCountC();        # should return 0
+SecondaryCount();         # should return 0
 ```
 
 For details on each step, and for other platforms, read on.
@@ -135,7 +135,7 @@ In any Maple session after installing:
 
 ```maple
 with(CoreDQC):
-SecondaryCountC();
+SecondaryCount();
 ```
 
 Expected result: `0` (no remote-secondary compute nodes are registered — that's the empty default state). If `define_external` couldn't locate or load the dylib, you'll get a clear error message pointing at the path Maple was looking for.
